@@ -1,5 +1,6 @@
 # ShadowRZ的GitHub Pages
-[网页的W3C验证结果](https://validator.w3.org/check?uri=https%3A%2F%2Fshadowrz.github.io%2F)
+![W3C XHTML 1.0 Passed](https://www.w3.org/Icons/valid-xhtml10)
+![Vaild CSS 3](https://jigsaw.w3.org/css-validator/images/vcss)
 ## 联系方式
 1. 邮箱：[1391347533@qq.com](mailto:1391347533@qq.com)
 ## 致谢
