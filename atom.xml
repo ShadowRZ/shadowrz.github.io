@@ -5,7 +5,7 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>{{ site.title }}</title>
-  <subtitle>{{ site.description | default: site.github.project_tagline }}</subtitle>
+  <subtitle>{{ site.description }}</subtitle>
   <link href="https://shadowrz.github.io/atom.xml" rel="self" />
   <link href="https://shadowrz.github.io" />
   <updated>{{ site.time }}</updated>
@@ -24,6 +24,6 @@ layout: feed
     <id>http://shadowrz.github.io{{ post.id }}</id>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
-  {%end for%}
+  {% endfor %}
 
 </feed>
