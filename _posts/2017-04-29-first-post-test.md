@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 博客式文章测试
 ---
 
