@@ -1,6 +1,6 @@
 # 来看我的博客文章～
 {% for post in site.posts %}
-## {{ post.title }}
+## [{{ post.title }}]({{ post.url }})
 {{ post.date }}
 
 {{ post.content}}
