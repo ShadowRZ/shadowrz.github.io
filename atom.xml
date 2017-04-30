@@ -1,0 +1,29 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>{{ site.title }}</title>
+  <subtitle>{{ site.description | default: site.github.project_tagline }}</subtitle>
+  <link href="https://shadowrz.github.io/atom.xml" rel="self" />
+  <link href="https://shadowrz.github.io" />
+  <updated>{{ site.time }}</updated>
+  <id>https://shadowrz.github.io</id>
+
+  <author>
+    <name>布偶君</name>
+    <email>1391347533@qq.com</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="https://shadowrz.github.io{{ page.url }}" />
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>http://shadowrz.github.io{{ post.id }}</id>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {%end for%}
+
+</feed>
