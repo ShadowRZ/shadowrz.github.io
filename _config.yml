@@ -1,4 +1,10 @@
 title: 布偶君的另一博客
 description: 这当然是布偶君的另一博客的说～
-theme: jekyll-theme-cayman
+author: 布偶君
+email: 1391347533@qq.com
+theme: minima
 exclude: ["vendor"]
+gems:
+ - jekyll-feed
+ - jekyll-avatar
+github_username: ShadowRZ
