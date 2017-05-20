@@ -255,3 +255,11 @@ shadowsocks 原本就不是为「加速网络」而生的项目，
 * [现代密码学实践指南 - 名词解释](https://www.kancloud.cn/digest/modern-crypto/79572)
 * [分组密码工作模式](https://zh.wikipedia.org/wiki/%E5%88%86%E7%BB%84%E5%AF%86%E7%A0%81%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F)
 * [Streaming API to authenticated encryption](http://crypto.stackexchange.com/questions/6008/streaming-api-to-authenticated-encryption)
+
+## +许可协议
+
+本文章采用 [知识共享(Creative Commons) 署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/) 进行许可。
+
+署名：@621sama
+
+来源：https://blessing.studio/why-do-shadowsocks-deprecate-ota/
