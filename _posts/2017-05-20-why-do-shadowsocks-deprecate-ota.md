@@ -77,7 +77,7 @@ Address Type | Destination Address | Destination Port | Data
 正是 shadowsocks 服务器的这个行为使得主动探测成为可能。
 #### 2.2.1 主动探测的原理
 
-    该方法由 {% include icon-github.html username="breakwa11" %} 提供(https://github.com/breakwa11/shadowsocks-rss/issues/50)
+    该方法由 @breakwa11 提供(https://github.com/breakwa11/shadowsocks-rss/issues/50)
 
 一般来讲，「表示地址类型的那个字节」是被加密后发送的，所以第三方无法精确的修改它。
 **但是不巧的是**，shadowsocks 所有的加密方式都是 `stream cipher`（[流加密](https://zh.wikipedia.org/wiki/%E6%B5%81%E5%8A%A0%E5%AF%86)），
@@ -147,7 +147,7 @@ OK，又一个可以通过服务器行为进行主动探测的地方。
 不过这种主动探测也可以通过上面提到的「随机超时抵抗」来进行防范，
 真正可怕的在下面：
 
-    该方法由 {% include icon-github.html username="breakwa11" %} 提供
+    该方法由 @breakwa11 提供
 
 还记得我们上面提到的 `stream cipher`（流加密）的特点吗？
 攻击者可是使用同样的套路修改数据包中的 `DATA.LEN` 字段，
