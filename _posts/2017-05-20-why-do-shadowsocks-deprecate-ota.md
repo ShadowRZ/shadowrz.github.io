@@ -77,7 +77,7 @@ Address Type | Destination Address | Destination Port | Data
 正是 shadowsocks 服务器的这个行为使得主动探测成为可能。
 #### 2.2.1 主动探测的原理
 
-    该方法由 @breakwa11 提供(https://github.com/breakwa11/shadowsocks-rss/issues/50)
+> 该方法由 {% include icon-github.html username="breakwa11" %} [提供](https://github.com/breakwa11/shadowsocks-rss/issues/50)
 
 一般来讲，「表示地址类型的那个字节」是被加密后发送的，所以第三方无法精确的修改它。
 **但是不巧的是**，shadowsocks 所有的加密方式都是 `stream cipher`（[流加密](https://zh.wikipedia.org/wiki/%E6%B5%81%E5%8A%A0%E5%AF%86)），
@@ -147,7 +147,7 @@ OK，又一个可以通过服务器行为进行主动探测的地方。
 不过这种主动探测也可以通过上面提到的「随机超时抵抗」来进行防范，
 真正可怕的在下面：
 
-    该方法由 @breakwa11 提供
+> 该方法由 {% include icon-github.html username="breakwa11" %} 提供
 
 还记得我们上面提到的 `stream cipher`（流加密）的特点吗？
 攻击者可是使用同样的套路修改数据包中的 `DATA.LEN` 字段，
@@ -206,7 +206,7 @@ Confidentiality（保密）用加密实现，
 虽然它依然使用的是流加密，
 但是通过更完善的**数据包完整性验证**机制杜绝了上面所述的可被篡改密文的可能性。
 
-    注：截至本文发布时新协议都是使用的 流加密 + 认证，不过 AEAD 的设计使得它能够使用块加密，因此上面说的并不是绝对的。
+> 注：截至本文发布时新协议都是使用的 流加密 + 认证，不过 AEAD 的设计使得它能够使用块加密，因此上面说的并不是绝对的。
 
 而为了实现认证加密（Authenticated Encryption），
 新协议必须要将 TCP 流分割成不同的 chunk 并分别验证。
@@ -243,7 +243,7 @@ shadowsocks 原本就不是为「加速网络」而生的项目，
 
 但是所谓「金无足赤，人无完人」，如果文章中仍有什么错误的地方，欢迎批评指正。
 
-    大家都不容易，谨以此文敦促 shadowsocks 用户 / 开发者们尽快使用 / 支持新协议。
+> 大家都不容易，谨以此文敦促 shadowsocks 用户 / 开发者们尽快使用 / 支持新协议。
 
 ## 六、参考链接
 
@@ -256,7 +256,7 @@ shadowsocks 原本就不是为「加速网络」而生的项目，
 * [分组密码工作模式](https://zh.wikipedia.org/wiki/%E5%88%86%E7%BB%84%E5%AF%86%E7%A0%81%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F)
 * [Streaming API to authenticated encryption](http://crypto.stackexchange.com/questions/6008/streaming-api-to-authenticated-encryption)
 
-## +许可协议
+## 许可协议
 
 本文章采用 [知识共享(Creative Commons) 署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/) 进行许可。
 
