@@ -3,7 +3,7 @@ layout: page
 title: 链接们
 permalink: /links
 ---
-{% avater breakwa11 %}
+{% avatar breakwa11 %}
 
 {% include icon-github.html username="breakwa11" %}
 
