@@ -25,8 +25,8 @@ OTA（One Time Auth，[一次性验证](https://shadowsocks.org/en/spec/one-time
 ## 二、原协议的弱点
 
 原 shadowsocks 协议的这个漏洞
-其实早在 2015 年就被 {% include icon-github.html username="breakwa11" %} 提出了。
-当时正值 {% include icon-github.html username="clowwindy" %} 被喝茶之际，
+其实早在 2015 年就被 @breakwa11 提出了。
+当时正值 @clowwindy 被喝茶之际，
 此 issue 下闹得沸沸扬扬撕逼不断，过了好一段时间后才开始有正经的技术讨论。
 
 如果你想要了解一下当时的情况可以去看看 [这个 issue](https://github.com/breakwa11/shadowsocks-rss/issues/38) ，
@@ -76,7 +76,7 @@ Address Type | Destination Address | Destination Port | Data
 正是 shadowsocks 服务器的这个行为使得主动探测成为可能。
 #### 2.2.1 主动探测的原理
 
-> 该方法由 {% include icon-github.html username="breakwa11" %} [提供](https://github.com/breakwa11/shadowsocks-rss/issues/50)
+> 该方法由 @breakwa11 [提供](https://github.com/breakwa11/shadowsocks-rss/issues/50)
 
 一般来讲，「表示地址类型的那个字节」是被加密后发送的，所以第三方无法精确的修改它。
 **但是不巧的是**，shadowsocks 所有的加密方式都是 `stream cipher`（[流加密](https://zh.wikipedia.org/wiki/%E6%B5%81%E5%8A%A0%E5%AF%86)），
@@ -111,7 +111,7 @@ Address Type | Destination Address | Destination Port | Data
 随便哪个阿猫阿狗发来的数据包，不管有没有被恶意篡改过，
 原来的 shadowsocks 服务器都会做出同样的反应。
 
-这时 {% include icon-github.html username="madeye" %}（现在的 shadowsocks 维护者）
+这时 @madeye（现在的 shadowsocks 维护者）
 提出了 One Time Auth 即「一次性验证」的提案，
 给原 shadowsocks 协议加上了数据包验证。
 ### 3.1 OTA 协议
@@ -146,7 +146,7 @@ OK，又一个可以通过服务器行为进行主动探测的地方。
 不过这种主动探测也可以通过上面提到的「随机超时抵抗」来进行防范，
 真正可怕的在下面：
 
-> 该方法由 {% include icon-github.html username="breakwa11" %} 提供
+> 该方法由 @breakwa11 提供
 
 还记得我们上面提到的 `stream cipher`（流加密）的特点吗？
 攻击者可是使用同样的套路修改数据包中的 `DATA.LEN` 字段，
@@ -239,7 +239,7 @@ shadowsocks 原本就不是为「加速网络」而生的项目，
 写这篇文章之前我对密码学的了解也就是一点皮毛程度而已，
 所以这篇文章也是我边查资料边写出来的。
 为了不让自己误人子弟，我非常谨慎查阅了相关资料并向他人请教
-（衷心感谢 {% include icon-github.html username="breakwa11" %} 和 {% include icon-github.html username="madeye" %} 对本文的审阅和提出的建议！）
+（衷心感谢 @breakwa11 和 @madeye 对本文的审阅和提出的建议！）
 
 但是所谓「金无足赤，人无完人」，如果文章中仍有什么错误的地方，欢迎批评指正。
 
