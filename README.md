@@ -1,2 +1,2 @@
-# 关于项目
-这是我的另外一个博客，使用Jekyll。
+# SukiShelf
+SukiShelf『The boring magic shelf』

@@ -1,10 +1,7 @@
-title: 布偶君的另一博客
-description: 据说其实有点baka？
-author: 布偶君
-email: 1391347533@qq.com
-theme: minima
-exclude: ["vendor"]
+title: SukiShelf
+show_downloads: true
 gems:
- - jekyll-feed
  - jekyll-avatar
-github_username: ShadowRZ
+ - jekyll-mentions
+ - jemoji
+ - jekyll-relative-links

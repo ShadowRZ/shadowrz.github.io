@@ -1,5 +1,4 @@
 ---
-layout: post
 title: MikiSync初期设想
 date: "2017-05-06 19:41:27 +0800"
 ---

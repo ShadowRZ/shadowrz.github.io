@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 为何 shadowsocks 要弃用一次性验证 (OTA)
 date: "2017-05-20 16:12:15 +0800"
 author: 621sama
