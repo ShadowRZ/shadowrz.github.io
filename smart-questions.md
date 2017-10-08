@@ -24,7 +24,8 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 ## 目录
 {:.no_toc}
 
-* {:toc}
+* ToC Here.
+{:toc}
 
 ## 声明
 
