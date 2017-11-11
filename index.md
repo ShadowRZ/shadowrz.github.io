@@ -2,5 +2,7 @@
 layout: default
 ---
 
-There are some staffs on the shelf of @ShadowRZ , the SukiShelf:
-* [Arch Linux CN Nicks Cheat Sheet](archlinux-cn-nicks-cheatsheet.md)
+Welcome to @ShadowRZ 's world !!!
+
+Currently, there's only old staffs: (:disappointed:)
+* [A copy of "Smart questions"](smart-questions.md)
