@@ -1,4 +1,4 @@
-title: SukiShelf
+title: ShadowRZ-C573-4E58
 theme: jekyll-theme-modernist
 show_downloads: true
 gems:
@@ -6,3 +6,5 @@ gems:
  - jekyll-mentions
  - jemoji
  - jekyll-relative-links
+ - jekyll-feed
+author: 布偶君
