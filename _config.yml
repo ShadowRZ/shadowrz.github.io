@@ -163,7 +163,7 @@ exclude:
 # Plugins and Plugin Configuration
 # ========================================================================================
 
-plugins:
+gems:
   - jekyll-avatar
   - jekyll-default-layout
   - jekyll-feed
@@ -184,7 +184,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: qwtel/hydejack@gem-7.4.2
+remote_theme: qwtel/hydejack@gem-7.5.0
 
 
 # SEO Tag
