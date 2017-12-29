@@ -163,7 +163,7 @@ exclude:
 # Plugins and Plugin Configuration
 # ========================================================================================
 
-gems:
+plugins:
   - jekyll-avatar
   - jekyll-default-layout
   - jekyll-feed
