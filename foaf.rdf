@@ -16,38 +16,54 @@ in this document are to be interpreted as described in [RFC 2119](https://tools.
         <foaf:name>布偶君</foaf:name>
         <foaf:nick>ShadowRZ</foaf:nick>
         <foaf:homepage rdf:resource="https://shadowrz.wordpress.com"/>
+        <foaf:weblog rdf:resource="https://shadowrz.wordpress.com"/>
         <foaf:depiction rdf:resource="https://github.com/ShadowRZ.png"/>
         <foaf:knows>
             <foaf:Person>
                 <foaf:name>ホロ</foaf:name>
                 <foaf:nick>Ken_Ookami_Horo</foaf:nick>
                 <foaf:homepage rdf:resource="https://blog.yoitsu.moe"/>
+                <foaf:weblog rdf:resource="https://blog.yoitsu.moe"/>
                 <!-- TODO: @KenOokamiHoro MAY provide a FOAF document. -->
                 <!--<rdfs:seeAlso rdf:resource="https://blog.yoitsu.moe/foaf.rdf"/>-->
             </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
             <foaf:Person>
                 <foaf:name>clarkzjw</foaf:name>
                 <foaf:nick>clarkzjw</foaf:nick>
-                <foaf:homepage rdf:resource="https://blog.jinwei.me"/>
+                <foaf:homepage rdf:resource="https://jinwei.me"/>
+                <foaf:weblog rdf:resource="https://blog.jinwei.me"/>
             </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
             <foaf:Person>
                 <foaf:name>Hikari Calax</foaf:name>
                 <foaf:homepage rdf:resource="https://hikaricalyx.com"/>
             </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
             <foaf:Person>
                 <foaf:name>Tᴀᴋᴀɴᴀsʜɪ Hᴏʀᴏ</foaf:name>
                 <foaf:nick>PeterCxy</foaf:nick>
-                <foaf:homepage rdf:resource="https://typeblog.net"/>
+                <foaf:homepage rdf:resource="https://cxy.moe"/>
+                <foaf:weblog rdf:resource="https://typeblog.net"/>
                 <!-- TODO: @PeterCxy MAY provide a FOAF document. -->
-                <!--<rdfs:seeAlso rdf:resource="https://typeblog.net/foaf.rdf"/>-->
+                <!--<rdfs:seeAlso rdf:resource="https://cxy.moe/foaf.rdf"/>-->
             </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
             <foaf:Person>
                 <foaf:name>maajiaa</foaf:name>
                 <foaf:homepage rdf:resource="https://maajiaa.wordpress.com"/>
+                <foaf:weblog rdf:resource="https://maajiaa.wordpress.com"/>
             </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
             <foaf:Person>
                 <foaf:name>niconiconi</foaf:name>
                 <foaf:homepage rdf:resource="https://tomli.blog"/>
+                <foaf:weblog rdf:resource="https://tomli.blog"/>
             </foaf:Person>
         </foaf:knows>
     </foaf:Person>
