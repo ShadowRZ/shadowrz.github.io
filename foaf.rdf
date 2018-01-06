@@ -11,12 +11,12 @@ in this document are to be interpreted as described in [RFC 2119](https://tools.
     xmlns:dc= "http://purl.org/dc/elements/1.1/">
 
     <foaf:PersonalProfileDocument rdf:about="">
-        <foaf:maker rdf:resource="https://shadowrz.wordpress.com#me"/>
-        <foaf:primaryTopic rdf:resource="https://shadowrz.wordpress.com#me"/>
+        <foaf:maker rdf:resource="#me"/>
+        <foaf:primaryTopic rdf:resource="#me"/>
         <dc:title>布偶君's FOAF description</dc:title>
     </foaf:PersonalProfileDocument>
 
-    <foaf:Person rdf:ID="https://shadowrz.wordpress.com#me">
+    <foaf:Person rdf:ID="me">
         <foaf:name>布偶君</foaf:name>
         <foaf:nick>ShadowRZ</foaf:nick>
         <foaf:homepage rdf:resource="https://shadowrz.wordpress.com"/>
