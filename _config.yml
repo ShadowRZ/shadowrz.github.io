@@ -3,20 +3,18 @@ baseurl: ''
 lang: zh
 title: 布偶君🍭 / Dimension
 description: From anything, to everything.
-# logo: /assets/icons/icon.png
 author:
   name: 布偶君
   email: shadowrz@disroot.org
-  picture: https://github.com/ShadowRZ.png
+  picture: /assets/images/default-card.png
   # twitter: <username>
 social:
   name: 布偶君
   links:
     - https://github.com/ShadowRZ
     - https://plus.google.com/100337916368098194679
+image: /assets/images/default-card.png
 permalink: none
-paginate: 20
-paginate_path: /page/:num.html
 # google_analytics: UA-XXXXXXXX-X
 exclude:
   - vendor
@@ -28,9 +26,9 @@ plugins:
   - jekyll-feed
   # - jekyll-gist
   - jekyll-optional-front-matter
-  - jekyll-paginate
+  # - jekyll-paginate
   # - jekyll-readme-index
-  - jekyll-redirect-from
+  # - jekyll-redirect-from
   - jekyll-relative-links
   # - jekyll-remote-theme
   # - jekyll-seo-tag
@@ -38,4 +36,9 @@ plugins:
   - jekyll-titles-from-headings
   - jemoji
   - jekyll-mentions
-theme: jekyll-theme-modernist
+theme: jekyll-theme-minimal
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/default-card.png
