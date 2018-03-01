@@ -7,7 +7,13 @@ description: From anything, to everything.
 author:
   name: 布偶君
   email: shadowrz@disroot.org
+  picture: https://github.com/ShadowRZ.png
   # twitter: <username>
+social:
+  name: 布偶君
+  links:
+    - https://github.com/ShadowRZ
+    - https://plus.google.com/100337916368098194679
 permalink: none
 paginate: 20
 paginate_path: /page/:num.html
