@@ -3,11 +3,7 @@ baseurl: ''
 lang: zh
 title: 布偶君🍭 / Dimension
 description: From anything, to everything.
-author:
-  name: 布偶君
-  email: shadowrz@disroot.org
-  picture: /assets/images/default-card.png
-  # twitter: <username>
+author: 布偶君
 social:
   name: 布偶君
   links:
@@ -36,7 +32,11 @@ plugins:
   - jekyll-titles-from-headings
   - jemoji
   - jekyll-mentions
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
+titles_from_headings:
+  enabled: true
+  strip_title: true
+strip_title: true
 defaults:
   - scope:
       path: ""
