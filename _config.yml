@@ -10,7 +10,7 @@ social:
     - https://github.com/ShadowRZ
     - https://plus.google.com/100337916368098194679
 image: /assets/images/default-card.png
-permalink: none
+permalink: /posts.d/:year/:month/:day/:title:output_ext
 # google_analytics: UA-XXXXXXXX-X
 exclude:
   - vendor
@@ -27,16 +27,15 @@ plugins:
   # - jekyll-redirect-from
   - jekyll-relative-links
   # - jekyll-remote-theme
-  # - jekyll-seo-tag
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
   - jemoji
   - jekyll-mentions
-theme: jekyll-theme-minimal
+theme: jekyll-theme-hacker
 titles_from_headings:
   enabled: true
   strip_title: true
-strip_title: true
 defaults:
   - scope:
       path: ""

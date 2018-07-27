@@ -35,6 +35,7 @@
 
 ## 想要捕捉你的存在
 
+  * [Posts -->](posts.d/)
   * IRC: HID_System@*
   * Matrix:
     [@ShadowRZ:matrixim.cc](https://matrix.to/#/@ShadowRZ:matrixim.cc)
