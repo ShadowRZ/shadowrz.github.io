@@ -1,3 +1,7 @@
+---
+layout: about
+title: About
+---
 想法有点混乱。  
 ……不如说本来就会混乱吧。
 
@@ -35,7 +39,6 @@
 
 ## 想要捕捉你的存在
 
-  * [Posts -->](posts.d/)
   * IRC: HID_System@*
   * Matrix:
     [@ShadowRZ:matrixim.cc](https://matrix.to/#/@ShadowRZ:matrixim.cc)
@@ -45,5 +48,3 @@
 ## 就这些？
 
 是的，就这些。
-
-**Last modified: 2018-07-07T20:05:22+08:00 / 布偶君**

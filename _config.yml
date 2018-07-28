@@ -3,12 +3,13 @@ baseurl: ''
 lang: zh
 title: 布偶君🍭 / Dimension
 description: From anything, to everything.
-author: 布偶君
+author:
+  name: 布偶君
+  picture: https://avatars.githubusercontent.com/ShadowRZ?s=256
 social:
   name: 布偶君
   links:
     - https://github.com/ShadowRZ
-    - https://plus.google.com/100337916368098194679
 image: /assets/images/default-card.png
 permalink: /posts.d/:year/:month/:day/:title:output_ext
 # google_analytics: UA-XXXXXXXX-X
@@ -32,12 +33,10 @@ plugins:
   - jekyll-titles-from-headings
   - jemoji
   - jekyll-mentions
-theme: jekyll-theme-hacker
+remote_theme: mmistakes/jekyll-theme-basically-basic
+search: false
 titles_from_headings:
   enabled: true
   strip_title: true
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: /assets/images/default-card.png
+paginate: 5
+paginate_path: /posts.d/page/:num:output_ext
