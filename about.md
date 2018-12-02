@@ -45,6 +45,12 @@ title: About
   * XMPP: [shadowrz@yax.im](xmpp:shadowrz@yax.im)
   * Mastodon: [ShadowRZ@mastodon.xyz](https://mastodon.xyz/users/ShadowRZ)
 
+## 许可协议
+
+除非特别注明，博文都是 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 授权的。
+
+这个页面不同，是 [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) 授权。
+
 ## 就这些？
 
 是的，就这些。
