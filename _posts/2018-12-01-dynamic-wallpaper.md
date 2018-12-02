@@ -43,9 +43,9 @@ $ gsettings set org.mate.background picture-filename /path/to/xml
 
 打开「背景作为幻灯片播放」，切换到「图像」选项卡。你会发现：
 
-![Cinnamon 背景图选择](/assets/images/cinnamon-background-select)
+![Cinnamon 背景图选择](/assets/images/cinnamon-background-select.png)
 
-你只能选择文件夹了。而文件夹里的_所有_图片会像幻灯片一样播放。
+你只能选择文件夹了。而文件夹里的*所有*图片会像幻灯片一样播放。
 
 如果你不希望如此，你可以使用和 GNOME 一样的 XML，让 Cinnamon 桌面使用它，设置的指令是：
 
