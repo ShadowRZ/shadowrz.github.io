@@ -1,8 +1,8 @@
-# Links
+---
+title: / Links
+layout: collection
+collection: friendlinks
+sort_by: title
+---
 
-**\*\*INCOMPLETE\*\***
-{% for link_hash in site.data.links %}
-{% assign link = link_hash[1] %}
-## [{{ link.name }}]({{ link.website }})
-{{ link.desc }}
-{% endfor %}
+以下为友情链接。

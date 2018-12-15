@@ -1,5 +1,4 @@
 ---
-layout: about
 title: About
 ---
 想法有点混乱。  

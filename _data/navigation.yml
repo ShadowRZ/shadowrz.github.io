@@ -1,0 +1,10 @@
+- title: About
+  url: /about.html
+- title: Links
+  url: /links.html
+- title: Categories
+  url: /posts.d/by-categories.html
+- title: Tags
+  url: /posts.d/by-tags.html
+- title: Search
+  url: /search.html

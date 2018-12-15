@@ -1,8 +1,8 @@
 url: https://shadowrz.github.io
 baseurl: ''
 lang: zh
-title: 布偶君🍭 / Dimension
-description: From anything, to everything.
+title: S. Mementoes
+description: ShadowRZ's blog.
 author:
   name: 布偶君
   picture: https://avatars.githubusercontent.com/ShadowRZ?s=256
@@ -10,33 +10,39 @@ social:
   name: 布偶君
   links:
     - https://github.com/ShadowRZ
+logo: /assets/images/avatar.png
 image: /assets/images/default-card.png
 permalink: /posts.d/:year/:month/:day/:title:output_ext
+category_archive_path: "/posts.d/by-categories.html#"
+tag_archive_path: "/posts.d/by-tags.html#"
+collections:
+  friendlinks:
+    output: true
+    permalink: /:collection.d/:name:output_ext
 # google_analytics: UA-XXXXXXXX-X
 exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
 plugins:
-  - jekyll-avatar
+  # - jekyll-avatar
   - jekyll-default-layout
   - jekyll-feed
   # - jekyll-gist
   - jekyll-optional-front-matter
-  # - jekyll-paginate
+  - jekyll-paginate
   # - jekyll-readme-index
   # - jekyll-redirect-from
   - jekyll-relative-links
-  # - jekyll-remote-theme
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
   - jemoji
   - jekyll-mentions
-remote_theme: mmistakes/jekyll-theme-basically-basic
-search: false
+remote_theme: "mmistakes/so-simple-theme"
 titles_from_headings:
   enabled: true
   strip_title: true
 paginate: 5
-paginate_path: /posts.d/page/:num:output_ext
+paginate_path: /posts.d/by-page/:num:output_ext
