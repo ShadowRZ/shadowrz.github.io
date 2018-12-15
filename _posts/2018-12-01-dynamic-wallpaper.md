@@ -7,6 +7,8 @@ excerpt_separator: "<!--more-->"
 
 <!--more-->
 
+{% include toc %}
+
 ## GNOME
 
 首先打开 Tweaks（优化），你会看到这样的界面：  
@@ -29,11 +31,20 @@ $ gsettings set org.mate.background picture-filename /path/to/xml
 
 ## KDE
 
-（待补充）
+右键桌面，点击「配置桌面」（或按下<kbd>Alt</kbd>+<kbd>D</kbd> / <kbd>Alt</kbd>+<kbd>S</kbd>），会得到这样的页面：
+
+![Plasma 桌面设定](/assets/images/plasma-desktop-setting.png)
+
+在「壁纸类型」中选择「幻灯显示」，然后用「添加文件夹…」添加包含要幻灯放映的图片的文件夹。最后点击「确定」。
 
 ## Xfce
 
-（待补充）
+打开 Xfce 设置，选择「桌面」：  
+（英文是因为 LiveDisc 不含中文）
+
+![Xfce 背景图选择（英文）](/assets/images/xfce-background-setting.png)
+
+在「文件夹」处添加要幻灯放映的文件夹，然后勾选「自动切换背景」（或者类似）。
 
 ## Cinnamon
 
