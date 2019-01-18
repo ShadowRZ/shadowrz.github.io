@@ -1,14 +1,18 @@
 url: https://shadowrz.github.io
 baseurl: ''
 title: S. Mementoes
-description: ShadowRZ's blog.
+description: >
+  ShadowRZ's blog.
 
 repository: ShadowRZ/shadowrz.github.io
 repository_tree: master
 
 author:
   name: 布偶君
-  picture: https://avatars.githubusercontent.com/ShadowRZ?s=256
+  picture: &A https://avatars.githubusercontent.com/ShadowRZ?s=256
+  avatar: *A
+  github: ShadowRZ
+  type: person
 social:
   name: 布偶君
   links:
@@ -44,7 +48,7 @@ defaults:
     values:
       layout: article
       sharing: true
-      license: true
+      license: CC-BY-SA-4.0
       aside:
         toc: true
       show_edit_on_github: false
@@ -52,8 +56,16 @@ defaults:
       pageview: false
 
 remote_theme: kitian616/jekyll-TeXt-theme
-text_skin: default
-highlight_theme: default
+text_skin: chocolate
+highlight_theme: tomorrow-night-blue
+license: CC-BY-4.0
+
+search:
+  provider: default
+
+toc:
+  selectors: "h1,h2,h3"
+
 titles_from_headings:
   enabled: true
   strip_title: true
