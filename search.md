@@ -1,6 +1,5 @@
 ---
-layout: search
 title: / Search
 ---
 
-搜索这个地方。
+此页以废，请使用上方的搜索按钮。

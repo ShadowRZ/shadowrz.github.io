@@ -7,8 +7,6 @@ excerpt_separator: "<!--more-->"
 
 <!--more-->
 
-{% include toc %}
-
 ## GNOME
 
 首先打开 Tweaks（优化），你会看到这样的界面：  

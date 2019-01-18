@@ -1,8 +1,11 @@
 url: https://shadowrz.github.io
 baseurl: ''
-lang: zh
 title: S. Mementoes
 description: ShadowRZ's blog.
+
+repository: ShadowRZ/shadowrz.github.io
+repository_tree: master
+
 author:
   name: 布偶君
   picture: https://avatars.githubusercontent.com/ShadowRZ?s=256
@@ -10,17 +13,8 @@ social:
   name: 布偶君
   links:
     - https://github.com/ShadowRZ
-logo: /assets/images/avatar.png
 image: /assets/images/default-card.png
 permalink: /posts.d/:year/:month/:day/:title:output_ext
-category_archive_path: "/posts.d/by-categories.html#"
-tag_archive_path: "/posts.d/by-tags.html#"
-collections:
-  friendlinks:
-    output: true
-    permalink: /:collection.d/:name:output_ext
-# google_analytics: UA-XXXXXXXX-X
-copyright: "2018 布偶君 / Posts license: <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA 4.0</a>; Others: <a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/\">CC-BY 4.0</a>"
 exclude:
   - vendor
   - Gemfile
@@ -33,7 +27,7 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-paginate
   # - jekyll-readme-index
-  # - jekyll-redirect-from
+  - jekyll-redirect-from
   - jekyll-relative-links
   - jekyll-remote-theme
   - jekyll-seo-tag
@@ -41,9 +35,28 @@ plugins:
   - jekyll-titles-from-headings
   - jemoji
   - jekyll-mentions
-remote_theme: "mmistakes/so-simple-theme"
+
+# Defaults.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      sharing: true
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: false
+      show_subscribe: true
+      pageview: false
+
+remote_theme: kitian616/jekyll-TeXt-theme
+text_skin: default
+highlight_theme: default
 titles_from_headings:
   enabled: true
   strip_title: true
+timezone: Asia/Shanghai
 paginate: 5
 paginate_path: /posts.d/by-page/:num:output_ext
