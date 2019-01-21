@@ -71,4 +71,4 @@ titles_from_headings:
   strip_title: true
 timezone: Asia/Shanghai
 paginate: 5
-paginate_path: /posts.d/by-page/:num:output_ext
+paginate_path: /posts.d/by-page/:num
