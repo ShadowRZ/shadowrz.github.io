@@ -56,7 +56,7 @@ defaults:
       pageview: false
 
 remote_theme: kitian616/jekyll-TeXt-theme
-text_skin: chocolate
+text_skin: default
 highlight_theme: tomorrow-night-blue
 license: CC-BY-4.0
 
