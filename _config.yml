@@ -8,13 +8,13 @@ repository: ShadowRZ/shadowrz.github.io
 repository_tree: master
 
 author:
-  name: 布偶君
+  name: 雨宫恋叶
   picture: &A https://avatars.githubusercontent.com/ShadowRZ?s=256
   avatar: *A
   github: ShadowRZ
   type: person
 social:
-  name: 布偶君
+  name: 雨宫恋叶
   links:
     - https://github.com/ShadowRZ
 image: /assets/images/default-card.png
@@ -54,6 +54,7 @@ defaults:
       show_edit_on_github: false
       show_subscribe: true
       pageview: false
+      author: ShadowRZ
 
 remote_theme: kitian616/jekyll-TeXt-theme
 text_skin: default
