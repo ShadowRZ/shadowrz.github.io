@@ -6,7 +6,7 @@ title: "/ Links"
 
 A fox called Megumi.
 
-[Visit blog ->](https://blog.megumifox.com/public/)
+[Visit blog ->](https://blog.megumifox.com/public/) \| @MarvelousBlack
 
 ## 约伊兹的萌狼乡手札
 
@@ -20,4 +20,4 @@ A fox called Megumi.
 
 [^2]: [【warma】不管谁说话都在听着的Warma](https://www.bilibili.com/video/av24099857)
 
-[Visit blog ->](https://blog.yoitsu.moe)
+[Visit blog ->](https://blog.yoitsu.moe) \| @KenOokamiHoro
