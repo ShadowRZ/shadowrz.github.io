@@ -70,6 +70,12 @@ toc:
 titles_from_headings:
   enabled: true
   strip_title: true
+
+collections:
+  shadowrz-novels:
+    output: true
+    permalink: /collections/:collection/:name:output_ext
+
 timezone: Asia/Shanghai
 paginate: 5
 paginate_path: /posts.d/by-page/:num
