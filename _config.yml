@@ -48,7 +48,7 @@ defaults:
     values:
       layout: article
       sharing: true
-      license: CC-BY-SA-4.0
+      license: CC-BY-4.0
       aside:
         toc: true
       show_edit_on_github: false
@@ -57,7 +57,7 @@ defaults:
       author: ShadowRZ
 
 remote_theme: kitian616/jekyll-TeXt-theme
-text_skin: default
+text_skin: chocolate
 highlight_theme: tomorrow-night-blue
 license: CC-BY-4.0
 

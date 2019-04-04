@@ -1,5 +1,6 @@
 ---
 title: 用其他工具设定 MATE 壁纸（仮
+license: CC-BY-SA-4.0
 ---
 
 （纯个人理解向）  

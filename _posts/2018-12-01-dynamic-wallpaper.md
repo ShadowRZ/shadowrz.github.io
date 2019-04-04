@@ -1,6 +1,7 @@
 ---
 title: "在 GNU/Linux 的桌面环境中设置自动切换壁纸"
 excerpt_separator: "<!--more-->"
+license: CC-BY-SA-4.0
 ---
 在 GNU/Linux 的桌面环境中设置壁纸，是怎么样的呢？  
 灵感来自萌狼的[同名文章](https://blog.yoitsu.moe/linux/setting_up_wallpapers.html)。
