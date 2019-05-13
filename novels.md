@@ -5,6 +5,7 @@ articles:
   data_source: site.shadowrz-novels
   type: brief
   show_info: true
+  reverse: true
 permalink: /collections/shadowrz-novels/
 ---
 

@@ -55,6 +55,12 @@ defaults:
       show_subscribe: true
       pageview: false
       author: ShadowRZ
+  - scope:
+      path: ""
+      type: shadowrz-novels
+    values:
+      license: false
+      layout: article
 
 remote_theme: kitian616/jekyll-TeXt-theme
 text_skin: chocolate

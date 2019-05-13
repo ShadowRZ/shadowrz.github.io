@@ -1,0 +1,13 @@
+#novel-content p {
+    text-indent: 2em;
+    margin: 0px;
+}
+
+#novel-content blockquote p {
+    text-indent: initial;
+}
+
+#ending-para {
+    text-align: right;
+    text-indent: 0;
+}
