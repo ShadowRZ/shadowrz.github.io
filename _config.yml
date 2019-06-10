@@ -11,12 +11,11 @@ author:
   name: 雨宫恋叶
   picture: &A https://avatars.githubusercontent.com/ShadowRZ?s=256
   avatar: *A
-  github: ShadowRZ
   type: person
 social:
   name: 雨宫恋叶
   links:
-    - https://github.com/ShadowRZ
+    - https://wxw.moe/users/ShadowRZ
 image: /assets/images/default-card.png
 permalink: /posts.d/:year/:month/:day/:title:output_ext
 exclude:
@@ -61,6 +60,7 @@ defaults:
     values:
       license: false
       layout: article
+      comment: false
 
 remote_theme: kitian616/jekyll-TeXt-theme
 text_skin: chocolate
@@ -72,6 +72,9 @@ search:
 
 toc:
   selectors: "h1,h2,h3"
+
+comments:
+  provider: custom
 
 titles_from_headings:
   enabled: true
