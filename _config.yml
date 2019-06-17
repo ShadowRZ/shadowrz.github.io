@@ -61,6 +61,12 @@ defaults:
       license: false
       layout: article
       comment: false
+  - scope:
+      path: ""
+      type: re-phantom
+    values:
+      license: false
+      layout: article
 
 remote_theme: kitian616/jekyll-TeXt-theme
 text_skin: chocolate
@@ -82,6 +88,9 @@ titles_from_headings:
 
 collections:
   shadowrz-novels:
+    output: true
+    permalink: /collections/:collection/:name:output_ext
+  re-phantom:
     output: true
     permalink: /collections/:collection/:name:output_ext
 

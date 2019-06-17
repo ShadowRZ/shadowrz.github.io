@@ -11,3 +11,12 @@
     text-align: right;
     text-indent: 0;
 }
+
+#novel-content .-ralign {
+    text-align: right;
+}
+
+#novel-content .wrap-center {
+    text-align: center;
+    text-indent: unset;
+}
