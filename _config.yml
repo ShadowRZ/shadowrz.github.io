@@ -94,6 +94,11 @@ collections:
     output: true
     permalink: /collections/:collection/:name:output_ext
 
+feed:
+  collections:
+    - shadowrz-novels
+    - re-phantom
+
 timezone: Asia/Shanghai
 paginate: 5
 paginate_path: /posts.d/by-page/:num
