@@ -9,3 +9,15 @@ articles:
   reverse: true
 permalink: /collections/re-phantom/
 ---
+
+### 视觉元素
+
+- [Mutt](http://www.mutt.org)
+
+### 感谢
+
+- [Outvi V](https://blog.outv.im): Supporting this work(?)
+
+### 暂定事项
+
+- 许可协议
