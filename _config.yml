@@ -69,7 +69,7 @@ defaults:
       layout: article
 
 remote_theme: kitian616/jekyll-TeXt-theme
-text_skin: chocolate
+text_skin: ocean
 highlight_theme: tomorrow-night-blue
 license: CC-BY-4.0
 
