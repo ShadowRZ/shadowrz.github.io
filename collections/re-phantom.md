@@ -9,6 +9,8 @@ articles:
 permalink: /collections/re-phantom/
 ---
 
+<div class="article__content" markdown="1">
+
 ---
 
 [订阅本作](/feed/re-phantom.xml)
@@ -24,3 +26,5 @@ permalink: /collections/re-phantom/
 ### 暂定事项
 
 - 许可协议
+
+</div>
