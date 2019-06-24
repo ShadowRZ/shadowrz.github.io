@@ -5,10 +5,11 @@ comment: false
 articles:
   data_source: site.re-phantom
   type: brief
-  show_info: true
   reverse: true
 permalink: /collections/re-phantom/
 ---
+
+[订阅本作](/feed/re-phantom.xml)
 
 ### 视觉元素
 
