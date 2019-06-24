@@ -3,7 +3,7 @@ title: "关于我的新作"
 tags: Novel
 ---
 
-[我的新作](https://shadowrz.github.io/collections/re-phantom/)最近更新了第一章呢。
+[我的新作](/collections/re-phantom/)最近更新了第一章呢。
 
 这个新作可以算是自己的一个脑洞尝试，也想试一下我的多章作品的水平（  
 总体来说其实……（目前为止？）还算可以。
