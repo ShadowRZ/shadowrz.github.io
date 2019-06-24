@@ -9,6 +9,8 @@ articles:
 permalink: /collections/re-phantom/
 ---
 
+---
+
 [订阅本作](/feed/re-phantom.xml)
 
 ### 视觉元素
