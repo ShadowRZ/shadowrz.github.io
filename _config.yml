@@ -67,6 +67,8 @@ defaults:
     values:
       license: false
       layout: article
+      sidebar:
+        nav: re-phantom
 
 remote_theme: kitian616/jekyll-TeXt-theme
 text_skin: ocean

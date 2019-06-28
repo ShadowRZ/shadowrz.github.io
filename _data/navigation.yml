@@ -32,3 +32,17 @@ header:
       ko      : &KO       소개
       ko-KR   : *KO
     url: /about.html
+re-phantom:
+  - title: 主目录
+    children:
+      - title: 序章
+        url: /collections/re-phantom/00-prologue.html
+      - title: 第一章
+        url: /collections/re-phantom/01-inkimi.html
+      - title: 第二章
+        url: /collections/re-phantom/02-bfg-11037.html
+      - title: To be continued...
+  - title: 其他事项
+    children:
+      - title: "勘误表 <Errata> (?) [TODO]"
+      - title: "设定 [TODO]"
