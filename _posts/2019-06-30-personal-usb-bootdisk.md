@@ -77,8 +77,10 @@ tags: ["Daily", "GRUB"]
     └── Phantom
 ```
 
-启动参数：`checksum lang=en_US keytable=us tz=UTC dirver=free misobasedir=System/Runtimes/Manjaro misolabel=PHANTOM-F quiet systemd.show_status=1`
+启动参数：`checksum lang=en_US keytable=us tz=UTC driver=free misobasedir=System/Runtimes/Manjaro misolabel=PHANTOM-F quiet systemd.show_status=1`
 
 然而不知道为什么 Manjaro 启动后，Xorg 整体黑屏……还有几个有反应的像素……
 
 更神奇的是只要是从 USB 上的 GRUB 加载就会这样，从我的硬盘加载就不会……不知道发生了什么……
+
+**17:42 更新：原来我把设定使用自由或非自由驱动的参数写错了，导致 Manjaro 不知所措……**
