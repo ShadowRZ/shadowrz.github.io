@@ -41,8 +41,3 @@ re-phantom:
         url: /collections/re-phantom/01-inkimi.html
       - title: 第二章
         url: /collections/re-phantom/02-bfg-11037.html
-      - title: To be continued...
-  - title: 其他事项
-    children:
-      - title: "勘误表 <Errata> (?) [TODO]"
-      - title: "设定 [TODO]"
