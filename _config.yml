@@ -1,6 +1,6 @@
 url: https://shadowrz.github.io
 baseurl: ''
-title: S. Mementoes
+title: Chaotic Dimension
 description: >
   ShadowRZ's blog.
 
@@ -71,7 +71,7 @@ defaults:
         nav: re-phantom
 
 remote_theme: kitian616/jekyll-TeXt-theme
-text_skin: ocean
+text_skin: orange
 highlight_theme: tomorrow-night-blue
 license: CC-BY-4.0
 
