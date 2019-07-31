@@ -1,19 +1,22 @@
 ---
-layout: articles
 title: "[Novel] Re: Re: Re: Re: Phantom"
 comment: false
-articles:
-  data_source: site.re-phantom
-  type: brief
-  reverse: true
+layout: article
+license: false
 permalink: /collections/re-phantom/
 ---
 
-<div class="article__content" markdown="1">
+那是什么时候开始的混乱？  
+那是什么时候开始的异常？  
+这里发生了什么？  
+在这莫名其妙的事件穿插于日常的生活中，  
+背后的一切到底是什么？
+
+（由于设计原因，请使用侧边栏导航）（名字是暂定）
 
 ---
 
-[订阅本作](/feed/re-phantom.xml)
+[主目录](re-phantom-toc.md) \| [订阅本作](/feed/re-phantom.xml)
 
 ### 视觉元素
 
@@ -27,4 +30,3 @@ permalink: /collections/re-phantom/
 
 - 许可协议
 
-</div>
