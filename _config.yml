@@ -16,7 +16,6 @@ social:
   links:
     - https://wxw.moe/users/ShadowRZ
     - https://moe.cat/users/ShadowRZ
-lang: zh_CN
 image: &B /assets/images/default-card.png
 logo: *B
 permalink: /posts.d/:year/:month/:day/:title:output_ext
