@@ -1,1 +1,1 @@
-console.info("-- Chaotic Dimension");console.group();fetch("https://v1.hitokoto.cn").then(function(res){return res.json()}).then(function(data){console.log(data.hitokoto,"--",data.from)});console.groupend();
+fetch("https://v1.hitokoto.cn").then(function(res){return res.json()}).then(function(data){console.log(data.hitokoto,"--",data.from)});
