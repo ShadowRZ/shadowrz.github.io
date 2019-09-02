@@ -32,6 +32,17 @@ header:
       ko      : &KO       소개
       ko-KR   : *KO
     url: /about.html
+  - titles:
+      en      : &EN       Creations
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  创作
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+    url: /collections/
 re-phantom:
   - title: 主目录
     children:
