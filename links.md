@@ -1,6 +1,7 @@
 ---
 title: "/ Links"
 comment: false
+layout: article
 ---
 
 ### 惠狐之书
@@ -22,6 +23,16 @@ A fox called Megumi.
 [^2]: [【warma】不管谁说话都在听着的Warma](https://www.bilibili.com/video/av24099857)
 
 [Visit blog ->](https://blog.yoitsu.moe) \| @KenOokamiHoro
+
+### OriginCode 札記
+
+这位打包者一定有着不一般的故事才能选择背叛吧。  
+从他以前的话语中或许能看出来。
+
+他离开了喵窝，成为了打包者。  
+我呢？
+
+[Visit blog ->](https://blog.origincode.me) \| @OriginCode
 
 ## New link
 
