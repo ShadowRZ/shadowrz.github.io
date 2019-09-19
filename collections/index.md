@@ -4,6 +4,7 @@ comment: false
 aside:
   toc: true
 permalink: /collections/
+layout: article
 ---
 
 ## 正在更新 / 其他
