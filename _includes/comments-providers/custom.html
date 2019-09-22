@@ -1,10 +1,13 @@
 <!-- start custom comments snippet -->
-<span style="font-size: small">Note: you may need to whitelist `utteranc.es`, `api.utteranc.es`, and `api.github.com` for the comment to work properly.</span>
 <script src="https://utteranc.es/client.js"
         repo="ShadowRZ/shadowrz.github.io"
-        issue-term="pathname"
+	{% if page.issue_id %}
+	issue-number="{{ page.issue_id }}"
+	{% else %}
+	issue-term="pathname"
+	{% endif %}
         label="comment"
-        theme="dark-blue"
+        theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
