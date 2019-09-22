@@ -73,7 +73,7 @@ date: "2019-09-21 06:21:24 +08:00"
 
 ## 另一边？？
 
->> [和雨宫恋叶交换问题！](https://blog.yoitsu.moe/life/question_exchange_shadowrz.html)
+\>\> [和雨宫恋叶交换问题！](https://blog.yoitsu.moe/life/question_exchange_shadowrz.html)
 {:style="text-align: right"}
 
 ~~萌狼：咱不认识字，咱只知道一个叫做「记忆碎片」的东西~~
