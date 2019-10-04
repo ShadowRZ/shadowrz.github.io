@@ -1,3 +1,7 @@
+#novel-content {
+    font-synthesis: weight style;
+}
+
 #novel-content p {
     text-indent: 2em;
     margin: 0px;
@@ -19,4 +23,9 @@
 #novel-content .wrap-center {
     text-align: center;
     text-indent: unset;
+}
+
+#novel-content .monologue {
+    font-size: x-small;
+    font-style: italic;
 }
