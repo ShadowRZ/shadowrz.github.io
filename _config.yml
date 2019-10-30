@@ -72,8 +72,8 @@ defaults:
         nav: re-phantom
 
 remote_theme: kitian616/jekyll-TeXt-theme
-text_skin: default
-highlight_theme: tomorrow-night-blue
+text_skin: ocean
+highlight_theme: tomorrow
 license: CC-BY-4.0
 
 search:

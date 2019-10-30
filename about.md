@@ -1,6 +1,6 @@
 ---
 layout: article
-title: About
+title: "¶ About"
 excerpt: "关于我，以及……留言板。"
 ---
 
