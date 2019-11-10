@@ -70,6 +70,14 @@ defaults:
       layout: article
       sidebar:
         nav: re-phantom
+  - scope:
+      path: ""
+      type: memory-letter
+    values:
+      license: false
+      layout: article
+      sidebar:
+        nav: memory-letter
 
 remote_theme: kitian616/jekyll-TeXt-theme
 text_skin: ocean
@@ -96,11 +104,15 @@ collections:
   re-phantom:
     output: true
     permalink: /collections/:collection/:name:output_ext
+  memory-letter:
+    output: true
+    permalink: /collections/:collection/:name:output_ext
 
 feed:
   collections:
     - shadowrz-novels
     - re-phantom
+    - memory-letter
 
 timezone: Asia/Shanghai
 paginate: 5
