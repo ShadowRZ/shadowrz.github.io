@@ -79,3 +79,6 @@ re-phantom:
         url: /collections/re-phantom/09-person.html
 memory-letter:
   - title: 主目录
+    children:
+      - title: 序章
+        url: /collections/memory-letter/00-prolongue.html
