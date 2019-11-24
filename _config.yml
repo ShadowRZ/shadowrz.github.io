@@ -1,7 +1,7 @@
 url: https://shadowrz.github.io
 baseurl: ''
 title: Chaotic Dimension
-description: 有点混乱的少年尝试在这里存在。
+description: 自我 NMI。
 
 repository: ShadowRZ/shadowrz.github.io
 repository_tree: master
@@ -14,7 +14,6 @@ author:
 social:
   name: 雨宫恋叶
   links:
-    - https://wxw.moe/users/ShadowRZ
     - https://moe.cat/users/ShadowRZ
 image: &B /assets/images/default-card.png
 logo: *B
