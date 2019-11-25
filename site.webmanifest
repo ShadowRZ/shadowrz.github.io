@@ -1,6 +1,6 @@
 {
-    "name": "Chaotic Dimension",
-    "short_name": "Chaotic Dimension",
+    "name": "S. Mementoes",
+    "short_name": "S. Mementoes",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -12,7 +12,5 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ],
-    "theme_color": "#7cc7bb",
-    "background_color": "#7cc7bb"
+    ]
 }
