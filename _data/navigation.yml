@@ -66,3 +66,5 @@ memory-letter:
     children:
       - title: 序章
         url: /collections/memory-letter/00-prolongue.html
+      - title: 第一章：刚开始的时候
+        url: /collections/memory-letter/01-beginning.html
