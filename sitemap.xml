@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://shadowrz.github.io/categories.html</loc>
+    <lastmod>2021-01-26T01:57:48+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shadowrz.github.io/post.html</loc>
+    <lastmod>2021-01-26T01:57:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shadowrz.github.io/tags.html</loc>
     <lastmod>2021-01-26T01:57:48+00:00</lastmod>
   </url>
   
@@ -18,8 +28,13 @@
   </url>
   
   <url>
-    <loc>https://shadowrz.github.io/archives.html</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <loc>https://shadowrz.github.io/tags/%E6%97%A5%E5%B8%B8.html</loc>
+    <lastmod>2021-01-26T01:57:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shadowrz.github.io/categories/%E9%83%A8%E8%90%BD%E6%A0%BC.html</loc>
+    <lastmod>2021-01-26T01:57:48+00:00</lastmod>
   </url>
   
   <url>
@@ -28,11 +43,8 @@
   </url>
   
   <url>
-    <loc>https://shadowrz.github.io/categories.html</loc>
-  </url>
-  
-  <url>
-    <loc>https://shadowrz.github.io/tags.html</loc>
+    <loc>https://shadowrz.github.io/archives.html</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
