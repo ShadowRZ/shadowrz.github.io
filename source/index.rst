@@ -19,13 +19,10 @@ I don't have much to say here, so here are some links:
 Other pages
 ------------------
 
+Other pages avaliable in this site.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-------------------
-
-* :ref:`genindex`
+   fragments/index
