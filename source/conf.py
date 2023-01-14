@@ -8,7 +8,7 @@
 
 project = 'RC0S % Home'
 html_title = 'RC0S % Home'
-copyright = '2022, 夜坂雅'
+copyright = '2022-2023, 夜坂雅'
 author = '夜坂雅'
 
 # -- General configuration ---------------------------------------------------
