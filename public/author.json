@@ -1,0 +1,11 @@
+{
+    "kind": "Author",
+    "name": "夜坂雅",
+    "tagline": "Yorusaka Miyabi",
+    "homepage": "README.md",
+    "avatar": "images/avatar.png",
+    "activities": [
+      "activities/2023-03-19-minoko-novel-11.md",
+      "activities/2023-03-19-hello-world.md"
+    ]
+  }
