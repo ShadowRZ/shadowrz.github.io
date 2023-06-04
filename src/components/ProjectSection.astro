@@ -1,0 +1,16 @@
+---
+import LinkWithIcon from './LinkWithIcon.astro'
+interface Props {
+  title: string,
+  icon: string,
+  href?: string,
+}
+const { title, icon, href } = Astro.props;
+---
+
+<div class="w-96 px-2 py-2 border-2 rounded-md border-fuchsia-300">
+  <h3 class="font-bold text-2xl">
+    <LinkWithIcon icon={icon} href={href}>{ title }</LinkWithIcon>
+  </h3>
+  <slot/>
+</div>

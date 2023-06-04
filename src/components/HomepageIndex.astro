@@ -1,0 +1,47 @@
+---
+import IndexFooter from "./IndexFooter.astro";
+import ProjectSection from "./ProjectSection.astro";
+import LinkWithIcon from "./LinkWithIcon.astro";
+---
+
+<div class="mb-4 mx-4 min-h-screen flex flex-col space-y-4 justify-center w-10/12 text-pink-800 dark:text-pink-200">
+  <header class="flex flex-col-reverse space-y-4 h-screen pb-32">
+    <div>
+      <p class="text-6xl">
+        <span class="font-semibold">Hi, I'm</span>
+        <br/>
+        <span class="font-black drop-shadow-md">Yorusaka Miyabi</span>.
+      </p>
+      <section class="text-3xl">
+        <p>My memento blends with yours.</p>
+      </section>
+      <section class="mt-2 text-xl font-bold">
+        <LinkWithIcon icon="solar:arrow-right-up-bold-duotone" href="https://shadowrz.github.io/blog/">My Blog</Link>
+      </section>
+    </div>
+  </header>
+  <section class="space-y-4">
+    <h2 class="font-bold text-3xl">## Projects</h2>
+    <section class="flex flex-row flex-wrap gap-4">
+      <ProjectSection href="https://shadowrz.gitlab.io/minoko-novel/" title="Minoko Novel" icon="solar:link-round-angle-bold-duotone">
+        <p>A crossover novel between Persona series's characters
+          and various characters based on a real-life one.</p>
+      </ProjectSection>
+      <ProjectSection href="https://minoko-documents.netlify.app" title="Minoko Documents" icon="solar:link-round-angle-bold-duotone">
+        <p>Various doucments about Minoko Novel which doesn't fit inside the novel itself.</p>
+      </ProjectSection>
+      <ProjectSection href="https://shadowrz.github.io/zshdocs-zh/" title="zshdocs-zh" icon="solar:link-round-angle-bold-duotone">
+        <p>[WIP] Zsh documentation in Chinese.</p>
+      </ProjectSection>
+    </section>
+  </section>
+  <section class="space-y-4">
+    <h2 class="font-bold text-3xl">## Planned Works</h2>
+    <section class="flex flex-row flex-wrap gap-4">
+      <ProjectSection title="Codename; Delusion" icon="solar:sledgehammer-bold-duotone">
+        <p>Retake of my original plot revolving around characters born from delusion.</p>
+      </ProjectSection>
+    </section>
+  </section>
+  <IndexFooter/>
+</div>
