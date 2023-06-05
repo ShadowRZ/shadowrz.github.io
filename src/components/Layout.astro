@@ -5,14 +5,20 @@ interface Props {
 }
 const { title } = Astro.props;
 
-import "@fontsource/jost/latin.css";
+import "@fontsource/jost/400.css";
+import "@fontsource/jost/600.css";
+import "@fontsource/jost/700.css";
+import "@fontsource/jost/900.css";
 ---
-<html>
+<html lang="en-US" dir="ltr">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="generator" content={Astro.generator} />
-    <script is:inline src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <meta name="description" content="My memento blends with yours.">
+    <script>
+      import 'iconify-icon'
+    </script>
     <FaviconHead />
 		<title>{ title }</title>
 	</head>

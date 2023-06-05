@@ -16,6 +16,7 @@
     "tailwindcss": "^3.3.2"
   },
   "devDependencies": {
-    "@fontsource/jost": "^5.0.2"
+    "@fontsource/jost": "^5.0.2",
+    "iconify-icon": "^1.0.7"
   }
 }
