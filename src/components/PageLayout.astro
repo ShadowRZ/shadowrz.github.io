@@ -1,0 +1,19 @@
+---
+import Layout from "./Layout.astro";
+import LinkWithIcon from "./LinkWithIcon.astro"
+import IndexFooter from "./IndexFooter.astro";
+const { title } = Astro.props.frontmatter || Astro.props;
+---
+
+<Layout title={title}>
+  <div class="space-y-4 py-4 w-10/12">
+    <div class="mb-2 text-xl font-bold">
+      <LinkWithIcon icon="solar:arrow-left-bold-duotone" href="/">Return to Homepage</Link>
+    </div>
+    <article class="prose prose-minoko dark:prose-invert max-w-full">
+      <slot/>
+    </article>
+    <hr class="border-dashed border-2 border-pink-800 dark:border-pink-200"/>
+    <IndexFooter/>
+  </div>
+</Layout>

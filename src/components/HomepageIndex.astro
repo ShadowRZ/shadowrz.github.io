@@ -2,9 +2,10 @@
 import IndexFooter from "./IndexFooter.astro";
 import ProjectSection from "./ProjectSection.astro";
 import LinkWithIcon from "./LinkWithIcon.astro";
+import Link from "./Link.astro";
 ---
 
-<div class="mb-4 mx-4 min-h-screen flex flex-col space-y-4 justify-center w-10/12 text-pink-800 dark:text-pink-200">
+<div class="mb-4 mx-4 min-h-screen flex flex-col space-y-4 justify-center w-10/12">
   <header class="flex flex-col-reverse space-y-4 h-screen pb-32">
     <div>
       <p class="text-6xl">
@@ -20,6 +21,12 @@ import LinkWithIcon from "./LinkWithIcon.astro";
       </section>
     </div>
   </header>
+  <section class="space-y-4">
+    <h2 class="font-bold text-3xl">## Pages</h2>
+    <ul class="flex flex-row flex-wrap gap-4 font-bold text-xl list-inside list-disc">
+      <li><Link href="/brands.html">Brands</Link></li>
+    </ul>
+  </section>
   <section class="space-y-4">
     <h2 class="font-bold text-3xl">## Projects</h2>
     <section class="flex flex-row flex-wrap gap-4">

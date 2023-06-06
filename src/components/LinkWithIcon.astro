@@ -14,6 +14,8 @@ const { icon, href } = Astro.props;
       <span class="no-underline group-hover:underline"><slot/></span>
     </a>
   :
-    <iconify-icon inline icon={icon}></iconify-icon>
-    <span><slot/></span>
+    <span>
+      <iconify-icon inline icon={icon}></iconify-icon>
+      <span><slot/></span>
+    </span>
 }
