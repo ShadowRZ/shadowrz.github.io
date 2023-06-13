@@ -10,7 +10,7 @@ const { title } = Astro.props.frontmatter || Astro.props;
     <div class="mb-2 text-xl font-bold">
       <LinkWithIcon icon="solar:arrow-left-bold-duotone" href="/">Return to Homepage</Link>
     </div>
-    <article class="prose prose-minoko dark:prose-invert max-w-full">
+    <article class="prose prose-minoko dark:prose-invert max-w-full prose-hr:border-dashed prose-hr:border-1 prose-hr:border-pink-800 dark:prose-hr:border-pink-200">
       <slot/>
     </article>
     <hr class="border-dashed border-2 border-pink-800 dark:border-pink-200"/>
