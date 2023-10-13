@@ -11,11 +11,11 @@ const { icon, href } = Astro.props;
   ?
     <a class="group" href={href}>
       <iconify-icon inline icon={icon}></iconify-icon>
-      <span class="no-underline group-hover:underline"><slot/></span>
+      <span class="pl-1 no-underline group-hover:underline"><slot/></span>
     </a>
   :
     <span>
       <iconify-icon inline icon={icon}></iconify-icon>
-      <span><slot/></span>
+      <span class="pl-1"><slot/></span>
     </span>
 }
