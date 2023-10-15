@@ -1,8 +1,7 @@
 ---
 import IndexFooter from "./IndexFooter.astro";
-import ProjectSection from "./ProjectSection.astro";
 import LinkWithIcon from "./LinkWithIcon.astro";
-import Link from "./Link.astro";
+import ExternalLinkWithIcon from "./ExternalLinkWithIcon.astro";
 ---
 
 <div class="mb-4 mx-4 min-h-screen flex flex-col space-y-4 justify-center w-10/12">
@@ -14,41 +13,23 @@ import Link from "./Link.astro";
         <span class="font-black drop-shadow-md">Yorusaka Miyabi</span>.
       </p>
       <section class="text-3xl">
-        <p>My memento blends with yours.</p>
+        <p>Memento Mori.</p>
       </section>
-      <section class="mt-2 text-xl font-bold">
-        <LinkWithIcon icon="solar:arrow-right-up-bold-duotone" href="https://shadowrz.github.io/blog/">My Blog</Link>
+      <section class="mt-2 text-xl font-bold space-y-2">
+        <nav id="main-nav" class="flex flex-wrap flex-row gap-x-2">
+          <ExternalLinkWithIcon icon="icon-[solar--arrow-right-up-bold-duotone]" href="https://shadowrz.github.io/blog/">My Blog</Link>
+          <LinkWithIcon icon="icon-[solar--magic-stick-3-bold-duotone]" href="/brands.html">Brands</Link>
+        </nav>
+        <h2 class="font-bold text-2xl">## Social <span class="align-[-0.125em] icon-[solar--planet-2-bold-duotone]"></span></h2>
+        <nav id="social" class="flex flex-wrap flex-row gap-x-2">
+          <ExternalLinkWithIcon icon="icon-[ph--codepen-logo-duotone]" href="https://codepen.io/ShadowRZ">Codepen</Link>
+          <ExternalLinkWithIcon icon="icon-[ph--github-logo-duotone]" href="https://github.com/ShadowRZ">GitHub</Link>
+          <ExternalLinkWithIcon icon="icon-[ph--gitlab-logo-duotone]" href="https://gitlab.com/ShadowRZ">GitLab</Link>
+          <ExternalLinkWithIcon icon="icon-[ph--chats-circle-duotone]" href="https://matrix.to/#/@shadowrz:nixos.dev">Matrix</Link>
+          <ExternalLinkWithIcon icon="icon-[ph--at-duotone]" href="https://social.boiledscript.com/@ShadowRZ">Fediverse</Link>
+        </nav>
       </section>
     </div>
   </header>
-  <section class="space-y-4">
-    <h2 class="font-bold text-3xl">## Pages</h2>
-    <ul class="flex flex-row flex-wrap gap-4 font-bold text-xl list-inside list-disc">
-      <li><Link href="/brands.html">Brands</Link></li>
-    </ul>
-  </section>
-  <section class="space-y-4">
-    <h2 class="font-bold text-3xl">## Projects</h2>
-    <section class="flex flex-row flex-wrap gap-4">
-      <ProjectSection href="https://shadowrz.gitlab.io/minoko-novel/" title="Minoko Novel" icon="solar:link-round-angle-bold-duotone">
-        <p>A crossover novel between Persona series's characters
-          and various characters based on a real-life one.</p>
-      </ProjectSection>
-      <ProjectSection href="https://minoko-documents.netlify.app" title="Minoko Documents" icon="solar:link-round-angle-bold-duotone">
-        <p>Various doucments about Minoko Novel which doesn't fit inside the novel itself.</p>
-      </ProjectSection>
-      <ProjectSection href="https://shadowrz.github.io/zshdocs-zh/" title="zshdocs-zh" icon="solar:link-round-angle-bold-duotone">
-        <p>[WIP] Zsh documentation in Chinese.</p>
-      </ProjectSection>
-    </section>
-  </section>
-  <section class="space-y-4">
-    <h2 class="font-bold text-3xl">## Planned Works</h2>
-    <section class="flex flex-row flex-wrap gap-4">
-      <ProjectSection title="Codename; Delusion" icon="solar:sledgehammer-bold-duotone">
-        <p>Retake of my original plot revolving around characters born from delusion.</p>
-      </ProjectSection>
-    </section>
-  </section>
   <IndexFooter/>
 </div>

@@ -10,7 +10,7 @@ const { icon, href } = Astro.props;
 {
   href
   ?
-    <a class="block group" href={href}>
+    <a class="block group" href={href} target="_blank">
       <span class:list={["align-[-0.125em]", icon]}></span>
       <span class="pl-1 no-underline group-hover:underline"><slot/></span>
     </a>

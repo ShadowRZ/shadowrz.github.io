@@ -8,6 +8,8 @@ const round = (num) =>
 const rem = (px) => `${round(px / 16)}rem`;
 const em = (px, base) => `${round(px / base)}em`;
 
+const { addDynamicIconSelectors } = require('@iconify/tailwind');
+
 module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
@@ -69,5 +71,6 @@ module.exports = {
 	},
 	plugins: [
     require('@tailwindcss/typography'),
+    addDynamicIconSelectors(),
   ],
 }
