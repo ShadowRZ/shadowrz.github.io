@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "antfu.iconify",
+    "nuxt.mdc",
+    "antfu.unocss",
+    "vue.volar"
+  ]
+}
