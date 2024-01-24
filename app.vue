@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import "@unocss/reset/tailwind-compat.css";
-import "@fontsource-variable/jost";
-import "@fontsource-variable/sora";
-import "@fontsource-variable/jetbrains-mono";
+import "@unocss/reset/tailwind-compat.css"
+import "@fontsource-variable/jost"
+import "@fontsource-variable/jetbrains-mono"
 
 import { useWindowScroll } from "@vueuse/core";
 
