@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div flex="~ col" px="8 md:16" pt="32">
+  <div flex="~ col" pt="32">
     <header>
       <div class="flex flex-col gap-8">
         <section flex="~ col" gap="4" pt="4">
@@ -35,25 +35,28 @@
                 timely response from me.
               </p>
               <p>
-                <WithUnderline
-                  is="a"
-                  transition="all"
-                  duration="200"
-                  font="bold"
-                  class="bg-underline"
+                <NuxtLink
                   href="https://nixos.org"
                   target="_blank"
                   rel="noopener"
                 >
-                  <Icon
-                    name="simple-icons:nixos"
-                    mr="1"
-                    size="0.95em"
-                    style="vertical-align: -0.125rem"
-                  />NixOS</WithUnderline
-                >
+                  <WithUnderline
+                    is="NuxtLink"
+                    transition="all"
+                    duration="200"
+                    font="bold"
+                    class="bg-underline"
+                  >
+                    <Icon
+                      name="simple-icons:nixos"
+                      mr="1"
+                      size="0.95em"
+                      style="vertical-align: -0.125rem"
+                    />NixOS</WithUnderline
+                  >
+                </NuxtLink>
                 liker.
-                <a
+                <NuxtLink
                   href="https://github.com/NixOS/nixpkgs"
                   target="_blank"
                   rel="noopener"
@@ -66,7 +69,7 @@
                     class="bg-underline"
                     >Nixpkgs</WithUnderline
                   >
-                </a>
+                </NuxtLink>
                 contributor.
               </p>
               <br />

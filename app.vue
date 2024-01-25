@@ -23,6 +23,7 @@ useHead({
     bg="pink-50 dark:pink-950"
     text="pink-800 dark:pink-200"
     min-h="dvh"
+    px="4 sm:8 md:16"
     font="sans"
   >
     <Header />

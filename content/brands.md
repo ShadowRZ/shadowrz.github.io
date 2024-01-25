@@ -1,6 +1,6 @@
 ---
-layout: ../components/PageLayout.astro
-title: "Brands (?)"
+navigation:
+  icon: 'ph:swatches-duotone'
 ---
 
 # Brands (?)
@@ -31,4 +31,4 @@ The only font I consistently uses is [**Jost**](https://indestructibletype.com/J
 
 ## Icons
 
-I use [Solar](https://solariconset.com) as icons.
+I mainly use [Solar](https://solariconset.com) and [Phosphor Icons](https://phosphoricons.com) as icons.
