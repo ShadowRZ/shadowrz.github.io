@@ -1,6 +1,5 @@
 ---
-navigation:
-  icon: 'ph:swatches-duotone'
+layout: page
 ---
 
 # Brands (?)

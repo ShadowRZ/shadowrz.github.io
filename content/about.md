@@ -1,6 +1,5 @@
 ---
-navigation:
-  icon: 'ph:info-duotone'
+layout: page
 ---
 
 # About

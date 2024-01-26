@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div flex="~ col" pt="32">
     <header>
