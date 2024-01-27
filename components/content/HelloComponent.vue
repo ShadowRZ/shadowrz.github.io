@@ -1,16 +1,16 @@
 <template>
-  <div flex="~ col" pt="32">
+  <div flex="~ col" pt="32" text-base xl="text-xl">
     <header>
       <div class="flex flex-col gap-8">
         <section flex="~ col" gap="4" pt="4">
-          <h2 text="4xl" font="bold">
+          <h2 text="4xl xl:5xl" font="bold">
             Hi there!<Icon
               ml="2"
               name="fluent-emoji-flat:waving-hand"
               style="vertical-align: -0.125em"
             />
           </h2>
-          <section text="2xl">
+          <section text="2xl xl:3xl">
             <p>
               I'm <span font="bold">Yorusaka Miyabi</span>, more commonly known
               as the handle
@@ -23,7 +23,7 @@
                 >@ShadowRZ</WithUnderline
               >.
             </p>
-            <div text="xl" mt="4">
+            <div text="xl xl:2xl" mt="4">
               <p>
                 I'm just a wanderer that may go anywhere and try to justify what
                 happened here and there.
@@ -33,41 +33,29 @@
                 timely response from me.
               </p>
               <p>
-                <NuxtLink
+                <UnderlinedLink
                   href="https://nixos.org"
                   target="_blank"
                   rel="noopener"
+                  font="bold"
+                  class="bg-underline"
                 >
-                  <WithUnderline
-                    is="NuxtLink"
-                    transition="all"
-                    duration="200"
-                    font="bold"
-                    class="bg-underline"
-                  >
-                    <Icon
-                      name="simple-icons:nixos"
-                      mr="1"
-                      size="0.95em"
-                      style="vertical-align: -0.125rem"
-                    />NixOS</WithUnderline
-                  >
-                </NuxtLink>
+                  <Icon
+                    name="simple-icons:nixos"
+                    mr="1"
+                    size="0.95em"
+                    style="vertical-align: -0.125rem"
+                  />NixOS</UnderlinedLink
+                >
                 liker.
-                <NuxtLink
+                <UnderlinedLink
                   href="https://github.com/NixOS/nixpkgs"
                   target="_blank"
                   rel="noopener"
+                  font="bold"
+                  class="bg-underline"
+                  >Nixpkgs</UnderlinedLink
                 >
-                  <WithUnderline
-                    transition="all"
-                    duration="200"
-                    is="span"
-                    font="bold"
-                    class="bg-underline"
-                    >Nixpkgs</WithUnderline
-                  >
-                </NuxtLink>
                 contributor.
               </p>
               <br />
@@ -79,7 +67,7 @@
           </section>
         </section>
         <section>
-          <h3 text="2xl" font="bold">
+          <h3 text="2xl xl:3xl" font="bold">
             <Icon
               name="ph:link-duotone"
               mr="1"
