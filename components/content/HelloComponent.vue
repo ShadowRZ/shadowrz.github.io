@@ -43,7 +43,7 @@
                   <Icon
                     name="simple-icons:nixos"
                     mr="1"
-                    size="0.95em"
+                    size="0.9em"
                     style="vertical-align: -0.125rem"
                   />NixOS</UnderlinedLink
                 >
@@ -62,20 +62,21 @@
               <p>
                 I also works on other side projects that are of personal tastes.
               </p>
-              <p font="bold">TODO: Other Pages</p>
+              <HelloPageChips />
             </div>
           </section>
         </section>
         <section>
           <h3 text="2xl xl:3xl" font="bold">
             <Icon
-              name="ph:link-duotone"
-              mr="1"
+              name="ph:arrow-bend-up-right-duotone"
+              mr="2"
+              size="0.9em"
               style="vertical-align: -0.125rem"
-            />External Links
+            />To Somewhere Else
           </h3>
           <section>
-            <p font="bold">TODO</p>
+            <HelloPageLinkChips />
           </section>
         </section>
       </div>
