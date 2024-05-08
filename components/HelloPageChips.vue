@@ -1,7 +1,7 @@
 <template>
   <div pt="2" flex="~ row wrap" text="lg" gap="2">
     <span
-      rounded="2"px="2" py="1"
+      rounded="2" px="2" py="1"
       bg="gray-200 hover:pink-200 dark:pink-900 dark:hover:gray-900"
       un-text="hover:pink-700"
       transition duration="200"
