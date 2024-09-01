@@ -5,5 +5,5 @@ export default defineAppConfig({
     description: '👋 Hi there! This is @ShadowRZ\'s Bitfield.',
     copyright: (date: Date) => `© 2023-${date.getFullYear()} Yorusaka Miyabi`,
     generator: true,
-  }
+  },
 })

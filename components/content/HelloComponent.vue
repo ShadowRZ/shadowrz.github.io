@@ -1,9 +1,21 @@
 <template>
-  <div flex="~ col" pt="32" text-base xl="text-xl">
+  <div
+    flex="~ col"
+    pt="32"
+    text-base
+    xl="text-xl"
+  >
     <header>
       <div class="flex flex-col gap-8">
-        <section flex="~ col" gap="4" pt="4">
-          <h2 text="4xl xl:5xl" font="bold">
+        <section
+          flex="~ col"
+          gap="4"
+          pt="4"
+        >
+          <h2
+            text="4xl xl:5xl"
+            font="bold"
+          >
             Hi there!<Icon
               ml="2"
               name="fluent-emoji-flat:waving-hand"
@@ -20,10 +32,14 @@
                 duration="200"
                 class="bg-underline-large"
                 font="bold"
-                >@ShadowRZ</WithUnderline
-              >.
+              >
+                @ShadowRZ
+              </WithUnderline>.
             </p>
-            <div text="xl xl:2xl" mt="4">
+            <div
+              text="xl xl:2xl"
+              mt="4"
+            >
               <p>
                 I'm just a wanderer that may go anywhere and try to justify what
                 happened here and there.
@@ -45,8 +61,8 @@
                     mr="1"
                     size="0.9em"
                     style="vertical-align: -0.125rem"
-                  />NixOS</UnderlinedLink
-                >
+                  />NixOS
+                </UnderlinedLink>
                 liker.
                 <UnderlinedLink
                   href="https://github.com/NixOS/nixpkgs"
@@ -54,11 +70,12 @@
                   rel="noopener"
                   font="bold"
                   class="bg-underline"
-                  >Nixpkgs</UnderlinedLink
                 >
+                  Nixpkgs
+                </UnderlinedLink>
                 contributor.
               </p>
-              <br />
+              <br>
               <p>
                 I also works on other side projects that are of personal tastes.
               </p>
@@ -67,7 +84,10 @@
           </section>
         </section>
         <section>
-          <h3 text="2xl xl:3xl" font="bold">
+          <h3
+            text="2xl xl:3xl"
+            font="bold"
+          >
             <Icon
               name="ph:arrow-bend-up-right-duotone"
               mr="2"
