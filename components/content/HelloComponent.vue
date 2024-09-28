@@ -33,7 +33,7 @@
                 class="bg-underline-large"
                 font="bold"
               >
-                @ShadowRZ
+                {{ "@ShadowRZ" }}
               </WithUnderline>.
             </p>
             <div
@@ -61,7 +61,7 @@
                     mr="1"
                     size="0.9em"
                     style="vertical-align: -0.125rem"
-                  />NixOS
+                  />{{ "NixOS" }}
                 </UnderlinedLink>
                 liker.
                 <UnderlinedLink
@@ -71,7 +71,7 @@
                   font="bold"
                   class="bg-underline"
                 >
-                  Nixpkgs
+                  {{ "Nixpkgs" }}
                 </UnderlinedLink>
                 contributor.
               </p>
