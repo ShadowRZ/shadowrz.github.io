@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: 'Outfit', sans-serif;
+}
+
+:root {
+  --ui-radius: 0.5rem;
+}
+
+body {
+  @apply antialiased bg-pink-50 dark:bg-pink-950 text-pink-800 dark:text-pink-200 scheme-light dark:scheme-dark;
+}
+
+@utility bg-underline {
+  background-size: 200% 4px;
+}
+
+@utility bg-underline-large {
+  background-size: 200% 16px;
+}
+
+@utility bg-underline-start {
+  background-position: 100% 100%;
+}
+
+@utility bg-underline-end {
+  background-position: 0% 100%;
+}
