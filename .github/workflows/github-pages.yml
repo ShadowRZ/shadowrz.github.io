@@ -1,4 +1,3 @@
-# https://github.com/actions/deploy-pages#usage
 name: Deploy to GitHub Pages
 on:
   workflow_dispatch:
@@ -11,27 +10,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
-      - name: Install Bun
-        uses: oven-sh/setup-bun@735343b667d3e6f658f44d0eca948eb6282f2b76 # v2.0.2
-        with:
-          bun-version: latest
-      # Pick your own package manager and build script
-      - name: Install Dependencies
-        run: bun install --omit=peer
-      - name: Build
-        run: bun run --bun build --preset=github_pages
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
-        with:
-          path: ./.output/public
+      - name: Run Astro
+        uses: withastro/action@b7d53628f8b666036b0238aadb0b984a2a489f26 # v6.1.1
   # Deployment job
   deploy:
     # Add a dependency to the build job
     needs: build
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
     # Deploy to the github_pages environment
     environment:
       name: github_pages

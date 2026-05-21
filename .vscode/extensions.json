@@ -1,8 +1,4 @@
 {
-  "recommendations": [
-    "antfu.iconify",
-    "nuxt.mdc",
-    "antfu.unocss",
-    "vue.volar"
-  ]
+  "recommendations": ["astro-build.astro-vscode"],
+  "unwantedRecommendations": []
 }

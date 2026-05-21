@@ -29,7 +29,5 @@
   ],
   "start_url": "/",
   "display": "browser",
-  "background_color": "#FDF2F8",
-  "theme_color": "#9D174D",
   "description": "@ShadowRZ's Bitfield"
 }
