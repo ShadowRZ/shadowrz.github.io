@@ -14,7 +14,7 @@
     "@astrojs/sitemap": "^3.7.2",
     "@tailwindcss/vite": "^4.3.0",
     "artalk": "^2.9.1",
-    "astro": "^6.3.6",
+    "astro": "^6.4.6",
     "astro-expressive-code": "^0.42.0",
     "astro-icon": "^1.1.5",
     "dayjs": "^1.11.19",
