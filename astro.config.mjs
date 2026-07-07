@@ -4,8 +4,9 @@ import { defineConfig, envField, fontProviders } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
 import icon from "astro-icon";
-import expressiveCode from "astro-expressive-code";
 import sitemap from "@astrojs/sitemap";
+import expressiveCode from "satteri-expressive-code";
+import { satteri } from "@astrojs/markdown-satteri";
 
 // https://astro.build/config
 export default defineConfig({
@@ -21,15 +22,19 @@ export default defineConfig({
   },
   trailingSlash: "never",
 
-  integrations: [
-    expressiveCode({
-      themeCssSelector: (theme) => `.${theme.type}`,
-      themes: ["catppuccin-mocha", "catppuccin-latte"],
+  markdown: {
+    processor: satteri({
+      mdastPlugins: [
+        expressiveCode({
+          themeCssSelector: (theme) => `.${theme.type}`,
+          themes: ["catppuccin-mocha", "catppuccin-latte"],
+        }),
+      ],
+      features: { directive: true },
     }),
-    mdx(),
-    icon(),
-    sitemap(),
-  ],
+  },
+
+  integrations: [mdx(), icon(), sitemap()],
 
   env: {
     schema: {
