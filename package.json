@@ -9,27 +9,27 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@astrojs/mdx": "^7.0.7",
+    "@astrojs/mdx": "^8.0.1",
     "@astrojs/rss": "^4.0.19",
-    "@astrojs/sitemap": "^3.7.3",
+    "@astrojs/sitemap": "^3.7.4",
     "@tailwindcss/vite": "^4.3.0",
     "artalk": "^2.9.1",
-    "astro": "^7.2.4",
+    "astro": "^7.3.2",
     "astro-icon": "^1.2.0",
     "dayjs": "^1.11.19",
     "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
-    "@astrojs/markdown-satteri": "^0.3.7",
+    "@astrojs/markdown-satteri": "^0.4.1",
     "@iconify-json/ph": "^1.2.2",
-    "@iconify-json/simple-icons": "^1.2.83",
+    "@iconify-json/simple-icons": "^1.2.95",
     "@tailwindcss/typography": "^0.5.19",
     "husky": "^9.1.7",
-    "lint-staged": "^17.0.5",
+    "lint-staged": "^17.5.0",
     "prettier": "3.9.6",
-    "prettier-plugin-astro": "0.14.1",
+    "prettier-plugin-astro": "1.0.0",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "satteri-expressive-code": "^0.1.17"
+    "satteri-expressive-code": "^0.1.24"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
