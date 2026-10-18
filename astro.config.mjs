@@ -1,22 +1,15 @@
 // @ts-check
-import { defineConfig, envField, fontProviders } from "astro/config";
-
-import tailwindcss from "@tailwindcss/vite";
+import { defineConfig, fontProviders } from "astro/config";
+import UnoCSS from "unocss/astro";
 import mdx from "@astrojs/mdx";
-import icon from "astro-icon";
-import sitemap from "@astrojs/sitemap";
+import Icons from "unplugin-icons/vite";
 import expressiveCode from "satteri-expressive-code";
+import sitemap from "@astrojs/sitemap";
 import { satteri } from "@astrojs/markdown-satteri";
 
 // https://astro.build/config
 export default defineConfig({
-  // IMPORTANT: Change this to your deployed site URL
   site: "https://shadowrz.github.io",
-
-  vite: {
-    plugins: [tailwindcss()],
-  },
-
   build: {
     format: "file",
   },
@@ -34,39 +27,48 @@ export default defineConfig({
     }),
   },
 
-  integrations: [mdx(), icon(), sitemap()],
+  integrations: [
+    UnoCSS({
+      injectReset: true,
+    }),
+    mdx(),
+    sitemap(),
+  ],
 
-  env: {
-    schema: {
-      UMAMI_URL: envField.string({
-        context: "server",
-        access: "public",
-        optional: true,
+  vite: {
+    plugins: [
+      Icons({
+        compiler: "astro",
+        iconCustomizer(collection, icon, props) {
+          props.width = "1em";
+          props.height = "1em";
+        },
       }),
-      UMAMI_WEBSITE_ID: envField.string({
-        context: "server",
-        access: "public",
-        optional: true,
-      }),
-      PUBLIC_ARTALK_SERVER: envField.string({
-        context: "server",
-        access: "public",
-        optional: true,
-      }),
-      PUBLIC_ARTALK_ENABLED: envField.boolean({
-        context: "server",
-        access: "public",
-        optional: true,
-      }),
-    },
+    ],
   },
 
   fonts: [
     {
-      provider: fontProviders.fontsource(),
-      name: "Outfit",
-      cssVariable: "--font-display",
-      weights: ["300 700"],
+      provider: fontProviders.google(),
+      name: "Fredoka",
+      cssVariable: "--astro-font-sans",
+      weights: ["400 700"],
+      styles: ["normal"],
+      subsets: ["latin"],
+      fallbacks: ["sans-serif"],
+    },
+    {
+      provider: fontProviders.google(),
+      name: "Kode Mono",
+      cssVariable: "--astro-font-mono",
+      weights: [400],
+      styles: ["normal"],
+      subsets: ["latin"],
+      fallbacks: ["monospace"],
     },
   ],
+
+  image: {
+    remotePatterns: [{ protocol: "https" }],
+  },
 });

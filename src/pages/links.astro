@@ -1,0 +1,171 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { SITE_DESCRIPTION } from "@/consts";
+import Command from "@/components/subpage/Command.astro";
+import BackCommand from "@/components/subpage/BackCommand.astro";
+
+import LinkDuotone from "~icons/ph/link-duotone";
+import { Image } from "astro:assets";
+---
+
+<Layout title={"Links"} description={SITE_DESCRIPTION}>
+  <header class="px-12 md:px-16 py-32">
+    <BackCommand />
+    <Command>cat links.md</Command>
+    <h1 class="mt-4 flex gap-2 font-bold text-5xl text-ctp-latte-flamingo dark:text-ctp-mocha-flamingo">
+      <LinkDuotone aria-hidden /> Links
+    </h1>
+    <div class="mt-4 text-xl font-italic">Where others come and go.</div>
+  </header>
+  <main class="px-12 md:px-16">
+    <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <li class="p-4 rounded-xl border-1 border-ctp-latte-crust dark:border-ctp-mocha-crust shadow-sm hover:shadow-md flex flex-row items-center gap-4">
+        <Image
+          class="size-16 rounded-lg transition hover:rotate-8"
+          width="460"
+          height="460"
+          src="https://avatars.githubusercontent.com/u/68757440?s=460"
+          alt="[Avatar for Guanran928 的博客]"
+          aria-hidden="true"
+        />
+        <div>
+          <h2 class="font-bold text-xl line-clamp-1">
+            <a href="https://blog.ny4.dev">Guanran928 的博客</a>
+          </h2>
+          <span class="text-md line-clamp-1">(描述我写不出来的)</span>
+        </div>
+      </li>
+      <li class="p-4 rounded-xl border-1 border-ctp-latte-crust dark:border-ctp-mocha-crust shadow-sm hover:shadow-md flex flex-row items-center gap-4">
+        <Image
+          class="size-16 rounded-lg transition hover:rotate-8"
+          width="460"
+          height="460"
+          src="https://avatars.githubusercontent.com/u/26817553?s=460"
+          alt="[Avatar for 约伊兹的萌狼乡手札]"
+          aria-hidden="true"
+        />
+        <div>
+          <h2 class="font-bold text-xl">
+            <a href="https://blog.yoitsu.moe/">约伊兹的萌狼乡手札</a>
+          </h2>
+          <span
+            class="text-md line-clamp-1 line-clamp-1"
+            title="「虽然咱长久以来被尊为神，且被束缚在这块土地上，但咱根本不是什么伟大的神。咱就是咱。咱是赫萝。」"
+          >
+            「虽然咱长久以来被尊为神，且被束缚在这块土地上，但咱根本不是什么伟大的神。咱就是咱。咱是赫萝。」
+          </span>
+        </div>
+      </li>
+      <li class="p-4 rounded-xl border-1 border-ctp-latte-crust dark:border-ctp-mocha-crust shadow-sm hover:shadow-md flex flex-row items-center gap-4">
+        <Image
+          class="size-16 rounded-lg transition hover:rotate-8"
+          width="460"
+          height="460"
+          src="https://avatars.githubusercontent.com/u/119999228?s=460"
+          alt="[Avatar for Astrarix Archive]"
+          aria-hidden="true"
+        />
+        <div>
+          <h2 class="font-bold text-xl line-clamp-1">
+            <a href="https://www.kokosa.icu/">Astrarix Archive~</a>
+          </h2>
+          <span class="text-md line-clamp-1" title="乱七八糟的个人站">
+            乱七八糟的个人站
+          </span>
+        </div>
+      </li>
+      <li class="p-4 rounded-xl border-1 border-ctp-latte-crust dark:border-ctp-mocha-crust shadow-sm hover:shadow-md flex flex-row items-center gap-4">
+        <Image
+          class="size-16 rounded-lg transition hover:rotate-8"
+          width="460"
+          height="460"
+          src="https://avatars.githubusercontent.com/u/23371099?s=460"
+          alt="[Avatar for 惠狐之书]"
+          aria-hidden="true"
+        />
+        <div>
+          <h2 class="font-bold text-xl line-clamp-1">
+            <a href="https://blog.megumifox.com/public/">惠狐之书</a>
+          </h2>
+          <span
+            class="text-md line-clamp-1"
+            title="一只叫惠的小狐狸的探索故事。"
+          >
+            一只叫惠的小狐狸的探索故事。
+          </span>
+        </div>
+      </li>
+      <li class="p-4 rounded-xl border-1 border-ctp-latte-crust dark:border-ctp-mocha-crust shadow-sm hover:shadow-md flex flex-row items-center gap-4">
+        <Image
+          class="size-16 rounded-lg transition hover:rotate-8"
+          width="460"
+          height="460"
+          src="https://avatars.githubusercontent.com/u/17294071?s=460"
+          alt="[Avatar for 千須末記事屋]"
+          aria-hidden="true"
+        />
+        <div>
+          <h2 class="font-bold text-xl line-clamp-1">
+            <a href="https://blog.origincode.me/">千須末記事屋</a>
+          </h2>
+          <span class="text-md line-clamp-1">(描述我写不出来的)</span>
+        </div>
+      </li>
+      <li class="p-4 rounded-xl border-1 border-ctp-latte-crust dark:border-ctp-mocha-crust shadow-sm hover:shadow-md flex flex-row items-center gap-4">
+        <Image
+          class="size-16 rounded-lg transition hover:rotate-8"
+          width="460"
+          height="460"
+          src="https://avatars.githubusercontent.com/u/48406926?s=460"
+          alt="[Avatar]"
+        />
+        <div>
+          <h2 class="font-bold text-xl line-clamp-1">
+            <a href="https://viflythink.com/">Vifly 的博客</a>
+          </h2>
+          <span class="text-md line-clamp-1">(描述我写不出来的)</span>
+        </div>
+      </li>
+      <li class="p-4 rounded-xl border-1 border-ctp-latte-crust dark:border-ctp-mocha-crust shadow-sm hover:shadow-md flex flex-row items-center gap-4">
+        <Image
+          class="size-16 rounded-lg transition hover:rotate-8"
+          width="600"
+          height="600"
+          src="https://blog.yurzi.net/icon.webp"
+          alt="[Avatar for 玖只的尾巴]"
+        />
+        <div>
+          <h2 class="font-bold text-xl line-clamp-1">
+            <a href="https://blog.yurzi.net/">玖只的尾巴</a>
+          </h2>
+          <span
+            class="text-md line-clamp-1"
+            title="这里有着一些毛茸茸的东西，包括但不限于知识、猫猫、尾巴等"
+          >
+            这里有着一些毛茸茸的东西，包括但不限于知识、猫猫、尾巴等
+          </span>
+        </div>
+      </li>
+      <li class="p-4 rounded-xl border-1 border-ctp-latte-crust dark:border-ctp-mocha-crust shadow-sm hover:shadow-md flex flex-row items-center gap-4">
+        <Image
+          class="size-16 rounded-lg transition hover:rotate-8"
+          width="460"
+          height="460"
+          src="https://avatars.githubusercontent.com/u/42143810?s=460"
+          alt="[Avatar for Justin Chen's Blog]"
+        />
+        <div>
+          <h2 class="font-bold text-xl line-clamp-1">
+            <a href="https://blog.starryreverie.cc/">Justin Chen's Blog</a>
+          </h2>
+          <span
+            class="text-md line-clamp-1"
+            title="A world where insightful idea sparks"
+          >
+            A world where insightful idea sparks
+          </span>
+        </div>
+      </li>
+    </ul>
+  </main>
+</Layout>

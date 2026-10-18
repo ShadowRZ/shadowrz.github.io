@@ -1,15 +1,77 @@
 ---
-import Hero from "@/components/blocks/Hero.astro";
-import RecentPosts from "@/components/blocks/RecentPosts.astro";
-import Footer from "@/components/layout/Footer.astro";
-import site from "@/config/site";
 import Layout from "@/layouts/Layout.astro";
+import HomeLink from "@/components/home/HomeLink.astro";
+import { SITE_NAME, SITE_DESCRIPTION } from "@/consts";
+import { Image } from "astro:assets";
+import avatar from "@/assets/avatar.png";
+
+import MatrixLogoDuotone from "~icons/ph/matrix-logo-duotone";
+import CatDuotone from "~icons/ph/cat-duotone";
+import GithubLogoDuotone from "~icons/ph/github-logo-duotone";
+import KanbanDuotone from "~icons/ph/kanban-duotone";
+import WrenchDuotone from "~icons/ph/wrench-duotone";
+import LinkDuotone from "~icons/ph/link-duotone";
 ---
 
-<Layout title={site.meta.title} description={site.meta.description}>
-  <div
-    class="animate-in fade-in slide-in-from-bottom-4 mx-auto max-w-2xl p-8 md:p-16"
-  >
-    <Hero />
-  </div>
+<Layout title={SITE_NAME} description={SITE_DESCRIPTION}>
+  <main class="min-h-screen flex flex-col relative">
+    <section class="flex flex-col items-center lg:flex-row gap-8 my-auto px-12 md:px-16 py-32">
+      <div class="relative">
+        <Image
+          class="size-48 md:size-64 rounded-full ring-2 ring-ctp-latte-crust dark:ring-ctp-mocha-crust shadow-md"
+          src={avatar}
+          alt="[Avatar of @ShadowRZ.]"
+        />
+        <span class="absolute bottom-0 end-0 size-10 md:size-12 flex items-center justify-center rounded-full bg-ctp-latte-mantle dark:bg-ctp-mocha-mantle border-1 border-ctp-latte-crust dark:border-ctp-mocha-crust shadow-md">
+          <span class="md:text-lg">💭</span>
+        </span>
+      </div>
+      <div class="flex flex-col gap-2">
+        <h1 class="text-4xl md:text-6xl font-bold text-ctp-latte-flamingo dark:text-ctp-mocha-flamingo text-shadow-md text-shadow-ctp-latte-flamingo dark:text-shadow-ctp-mocha-flamingo">
+          {SITE_NAME}
+        </h1>
+        <div class="text-xl md:text-2xl">{SITE_DESCRIPTION}</div>
+        <address class="flex flex-row gap-2 text-ctp-latte-overlay-2 dark:text-ctp-mocha-overlay-2">
+          <a
+            href="https://matrix.to/#/@shadowrz:nixos.dev"
+            title="GitHub: @ShadowRZ"
+          >
+            <GithubLogoDuotone
+              aria-hidden
+              class="size-8 hover:text-ctp-latte-subtext-1 dark:hover:text-ctp-mocha-subtext-1 transition-colors duration-200"
+            />
+          </a>
+          <a
+            href="https://miruku.cafe/@ShadowRZ"
+            title="Fediverse: @ShadowRZ@miruku.cafe"
+          >
+            <CatDuotone
+              aria-hidden
+              class="size-8 hover:text-ctp-latte-subtext-1 dark:hover:text-ctp-mocha-subtext-1 transition-colors duration-200"
+            />
+          </a>
+          <a
+            href="https://matrix.to/#/@shadowrz:nixos.dev"
+            title="Matrix: @shadowrz:nixos.dev"
+          >
+            <MatrixLogoDuotone
+              aria-hidden
+              class="size-8 hover:text-ctp-latte-subtext-1 dark:hover:text-ctp-mocha-subtext-1 transition-colors duration-200"
+            />
+          </a>
+        </address>
+        <nav class="mt-4 flex gap-4">
+          <HomeLink href="/projects">
+            <KanbanDuotone aria-hidden /> Projects
+          </HomeLink>
+          <HomeLink href="/tools">
+            <WrenchDuotone aria-hidden /> Tools
+          </HomeLink>
+          <HomeLink href="/links">
+            <LinkDuotone aria-hidden /> Links
+          </HomeLink>
+        </nav>
+      </div>
+    </section>
+  </main>
 </Layout>

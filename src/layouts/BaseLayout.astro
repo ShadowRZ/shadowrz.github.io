@@ -1,22 +1,16 @@
 ---
-import Head from "@/components/layout/Head.astro";
+import Head from "@/components/layouts/Head.astro";
 import type { HeadProps } from "@/types";
-import "@/styles/global.css";
-import Umami from "@/components/analytics/Umami.astro";
-import site from "@/config/site";
 
 type Props = HeadProps;
 
 const head = Astro.props;
 ---
 
-<html lang={site.meta.lang}>
+<!doctype html>
+<html lang="en">
   <Head {...head} />
-  <body
-    class="flex min-h-screen items-center justify-center bg-background p-2 font-display text-foreground antialiased selection:bg-primary/20 md:p-6"
-  >
+  <body class="flex flex-col min-h-screen bg-ctp-latte-base text-ctp-latte-text dark:bg-ctp-mocha-base dark:text-ctp-mocha-text font-sans antialiased">
     <slot />
-
-    <Umami />
   </body>
 </html>
