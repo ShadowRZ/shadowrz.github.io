@@ -9,7 +9,7 @@ import { Image } from "astro:assets";
 ---
 
 <Layout title={"Links"} description={SITE_DESCRIPTION}>
-  <header class="px-12 md:px-16 py-32">
+  <header class="py-24 px-4 md:px-16 lg:px-32">
     <BackCommand />
     <Command>cat links.md</Command>
     <h1 class="mt-4 flex gap-2 font-bold text-5xl text-ctp-latte-flamingo dark:text-ctp-mocha-flamingo">
@@ -17,7 +17,7 @@ import { Image } from "astro:assets";
     </h1>
     <div class="mt-4 text-xl font-italic">Where others come and go.</div>
   </header>
-  <main class="px-12 md:px-16">
+  <main class="px-4 md:px-16 lg:px-32 py-8">
     <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <li class="p-4 rounded-xl border-1 border-ctp-latte-crust dark:border-ctp-mocha-crust shadow-sm hover:shadow-md flex flex-row items-center gap-4">
         <Image
