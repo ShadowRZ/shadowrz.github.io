@@ -13,26 +13,26 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^7.4.0"
+    "astro": "^7.4.2"
   },
   "allowScripts": {
     "esbuild": true
   },
   "devDependencies": {
-    "@astrojs/markdown-satteri": "^0.4.4",
-    "@astrojs/mdx": "^8.1.0",
+    "@astrojs/markdown-satteri": "^0.4.5",
+    "@astrojs/mdx": "^8.1.1",
     "@astrojs/sitemap": "^3.7.4",
     "@catppuccin/unocss": "^3.0.0",
     "@iconify-json/ph": "^1.2.2",
-    "@unocss/astro": "^66.10.0",
-    "@unocss/reset": "^66.10.0",
+    "@unocss/astro": "^66.11.0",
+    "@unocss/reset": "^66.11.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
     "prettier": "^3.9.10",
     "prettier-plugin-astro": "^1.1.1",
     "satteri-expressive-code": "^0.1.24",
-    "unocss": "^66.10.0",
-    "unplugin-icons": "^23.0.1"
+    "unocss": "^66.11.0",
+    "unplugin-icons": "^24.0.0"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
