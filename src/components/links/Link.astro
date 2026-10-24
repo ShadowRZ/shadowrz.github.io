@@ -1,0 +1,28 @@
+---
+import { Image } from "astro:assets";
+
+const { name, avatar, link, size, description } = Astro.props;
+---
+
+<li>
+  <a
+    href={link}
+    class="p-4 rounded-xl border-1 border-ctp-latte-crust dark:border-ctp-mocha-crust shadow-sm hover:shadow-md flex flex-row items-center gap-4"
+  >
+    <Image
+      class="size-16 rounded-lg transition hover:rotate-8 hover:shadow-md"
+      width={size}
+      height={size}
+      src={avatar}
+      alt={`[Avatar for ${name}]`}
+      aria-hidden="true"
+      format="avif"
+    />
+    <div>
+      <h2 class="font-bold text-xl line-clamp-1">{name}</h2>
+      <span class="text-md line-clamp-1" title={description}>
+        {description}
+      </span>
+    </div>
+  </a>
+</li>

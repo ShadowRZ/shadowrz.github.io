@@ -14,12 +14,13 @@ import LinkDuotone from "~icons/ph/link-duotone";
 ---
 
 <Layout title={SITE_NAME} description={SITE_DESCRIPTION}>
-  <main class="min-h-screen flex flex-col relative justify-center">
-    <section class="flex flex-col items-center lg:flex-row gap-8 px-4 md:px-16 py-32">
+  <main class="min-h-screen flex flex-col">
+    <section class="my-auto flex flex-col items-center lg:flex-row gap-8 px-4 md:px-16">
       <div class="relative">
         <Image
           class="size-48 md:size-64 rounded-full ring-2 ring-ctp-latte-crust dark:ring-ctp-mocha-crust shadow-md"
           src={avatar}
+          format="avif"
           alt="[Avatar of @ShadowRZ.]"
         />
         <span class="absolute bottom-0 end-0 size-10 md:size-12 flex items-center justify-center rounded-full bg-ctp-latte-mantle dark:bg-ctp-mocha-mantle border-1 border-ctp-latte-crust dark:border-ctp-mocha-crust shadow-md">
@@ -27,7 +28,7 @@ import LinkDuotone from "~icons/ph/link-duotone";
         </span>
       </div>
       <div class="flex flex-col gap-2 items-center lg:items-start">
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-ctp-latte-flamingo dark:text-ctp-mocha-flamingo text-shadow-md text-shadow-ctp-latte-flamingo dark:text-shadow-ctp-mocha-flamingo">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-ctp-latte-flamingo dark:text-ctp-mocha-flamingo text-shadow-md text-shadow-ctp-latte-flamingo dark:text-shadow-ctp-mocha-flamingo">
           {SITE_NAME}
         </h1>
         <div class="text-lg md:text-xl lg:text-2xl">{SITE_DESCRIPTION}</div>
