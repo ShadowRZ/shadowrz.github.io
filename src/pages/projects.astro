@@ -1,6 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { SITE_DESCRIPTION } from "@/consts";
+import Header from "@/components/subpage/Header.astro";
 import Command from "@/components/subpage/Command.astro";
 import BackCommand from "@/components/subpage/BackCommand.astro";
 
@@ -8,13 +9,13 @@ import KanbanDuotone from "~icons/ph/kanban-duotone";
 ---
 
 <Layout title={"Projects"} description={SITE_DESCRIPTION}>
-  <header class="py-24 px-4 md:px-16 lg:px-32">
+  <Header>
     <BackCommand />
     <Command>cat projects.md</Command>
     <h1 class="mt-4 flex gap-2 font-bold text-5xl text-ctp-latte-flamingo dark:text-ctp-mocha-flamingo">
       <KanbanDuotone aria-hidden /> Projects
     </h1>
     <div class="mt-4 text-xl font-italic">What I did.</div>
-  </header>
+  </Header>
   <main class="px-4 md:px-16 lg:px-32 py-8">TODO</main>
 </Layout>

@@ -1,23 +1,23 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { SITE_DESCRIPTION } from "@/consts";
+import Header from "@/components/subpage/Header.astro";
 import Command from "@/components/subpage/Command.astro";
 import BackCommand from "@/components/subpage/BackCommand.astro";
 import Link from "@/components/links/Link.astro";
 
 import LinkDuotone from "~icons/ph/link-duotone";
-import { Image } from "astro:assets";
 ---
 
 <Layout title={"Links"} description={SITE_DESCRIPTION}>
-  <header class="py-24 px-4 md:px-16 lg:px-32 border-b-2 border-dashed border-ctp-latte-surface-0 dark:border-ctp-mocha-surface-0">
+  <Header>
     <BackCommand />
     <Command>cat links.md</Command>
     <h1 class="mt-4 flex gap-2 font-bold text-5xl text-ctp-latte-flamingo dark:text-ctp-mocha-flamingo">
       <LinkDuotone aria-hidden /> Links
     </h1>
     <div class="mt-4 text-xl font-italic">Where others come and go.</div>
-  </header>
+  </Header>
   <main class="px-4 md:px-16 lg:px-32 py-8">
     <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <Link
