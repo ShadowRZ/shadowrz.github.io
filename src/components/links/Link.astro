@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 
-const { name, avatar, link, size, description } = Astro.props;
+const { name, avatar, link, size, description, format } = Astro.props;
 ---
 
 <li>
@@ -17,7 +17,7 @@ const { name, avatar, link, size, description } = Astro.props;
       src={avatar}
       alt={`[Avatar for ${name}]`}
       aria-hidden="true"
-      format="avif"
+      format={format ?? "avif"}
     />
     <div>
       <h2 class="font-bold text-xl line-clamp-1">{name}</h2>
